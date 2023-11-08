@@ -251,7 +251,7 @@
   (symbol (lib_id "Device:R_Small") (at 144.78 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bcfa5eb-86e3-44f1-9c18-50a69a595e67)
-    (property "Reference" "R9" (at 139.7 105.41 0)
+    (property "Reference" "R6" (at 139.7 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 139.7 107.95 0)
@@ -268,7 +268,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -277,7 +277,7 @@
   (symbol (lib_id "Device:R_Small") (at 144.78 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15ff1da5-e6ab-4be2-a66f-a9f82a7b41f4)
-    (property "Reference" "R8" (at 139.7 93.98 0)
+    (property "Reference" "R5" (at 139.7 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 139.7 96.52 0)
@@ -294,7 +294,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -303,7 +303,7 @@
   (symbol (lib_id "Device:R_Small") (at 212.09 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26dcbc58-9a01-433d-918f-50bfaee38ed4)
-    (property "Reference" "R11" (at 207.01 105.41 0)
+    (property "Reference" "R8" (at 207.01 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 207.01 107.95 0)
@@ -320,7 +320,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -329,7 +329,7 @@
   (symbol (lib_id "power:GND") (at 78.74 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3158ee57-9e00-4373-922a-f697fe75fd46)
-    (property "Reference" "#PWR047" (at 85.09 110.49 0)
+    (property "Reference" "#PWR03" (at 85.09 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 110.49 90)
@@ -345,7 +345,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -354,7 +354,7 @@
   (symbol (lib_id "power:GND") (at 146.05 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35ad9d49-d81b-4676-b7dd-c6f9572d9e2f)
-    (property "Reference" "#PWR048" (at 152.4 110.49 0)
+    (property "Reference" "#PWR04" (at 152.4 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 110.49 90)
@@ -370,7 +370,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -379,7 +379,7 @@
   (symbol (lib_id "Device:R_Small") (at 77.47 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a94fff67-2c14-49c4-90df-5fc39bcceb87)
-    (property "Reference" "R7" (at 72.39 105.41 0)
+    (property "Reference" "R4" (at 72.39 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 72.39 107.95 0)
@@ -396,7 +396,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -405,7 +405,7 @@
   (symbol (lib_id "Device:R_Small") (at 212.09 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b25dfa2f-0531-49c8-a637-e41c887d0a97)
-    (property "Reference" "R10" (at 207.01 93.98 0)
+    (property "Reference" "R7" (at 207.01 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 207.01 96.52 0)
@@ -422,7 +422,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "R10") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -431,7 +431,7 @@
   (symbol (lib_id "power:GND") (at 213.36 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be4e743d-0195-4789-8b71-0ec1d4625c5b)
-    (property "Reference" "#PWR049" (at 219.71 110.49 0)
+    (property "Reference" "#PWR05" (at 219.71 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 110.49 90)
@@ -447,7 +447,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -456,7 +456,7 @@
   (symbol (lib_id "Device:R_Small") (at 77.47 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d770abcd-1c88-46b7-a76e-21f60eeb2a6c)
-    (property "Reference" "R6" (at 72.39 93.98 0)
+    (property "Reference" "R3" (at 72.39 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 72.39 96.52 0)
@@ -473,7 +473,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/6f5415fb-38ca-4d8b-9553-51f9710fbbb5"
-          (reference "R6") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
