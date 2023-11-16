@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.4,
-          "width": 1.2
+          "drill": 3.0,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -493,7 +493,7 @@
     ],
     [
       "1efb5faf-bb82-4ac6-a144-d6576b4720aa",
-      "Measure"
+      "Polarity_Protection"
     ],
     [
       "a27b443f-c036-4fd6-934c-6ea912709de0",

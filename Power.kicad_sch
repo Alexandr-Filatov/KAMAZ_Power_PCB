@@ -42,57 +42,6 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -516,9 +465,6 @@
   (junction (at 191.77 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 16e16ed3-6f81-412f-8e60-2ef9f591b8c3)
   )
-  (junction (at 121.92 125.73) (diameter 0) (color 0 0 0 0)
-    (uuid 1957948e-975f-4a12-881f-0a63b19378af)
-  )
   (junction (at 200.66 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 1b7e24f1-7dff-4dd3-a9c2-c89243cc27d2)
   )
@@ -539,9 +485,6 @@
   )
   (junction (at 110.49 86.36) (diameter 0) (color 0 0 0 0)
     (uuid 218c86c8-019d-4155-95eb-c1c6089d21e0)
-  )
-  (junction (at 132.08 125.73) (diameter 0) (color 0 0 0 0)
-    (uuid 236eaaff-a666-4c15-b939-c4cc21281e98)
   )
   (junction (at 128.27 72.39) (diameter 0) (color 0 0 0 0)
     (uuid 2465b88e-bb29-4fba-a1ae-2bf72baef775)
@@ -578,9 +521,6 @@
   )
   (junction (at 154.94 86.36) (diameter 0) (color 0 0 0 0)
     (uuid 511ae00c-7017-4149-b196-e9b416361cdc)
-  )
-  (junction (at 107.95 153.67) (diameter 0) (color 0 0 0 0)
-    (uuid 55d7477a-f38f-4139-8d65-938c234e6884)
   )
   (junction (at 154.94 72.39) (diameter 0) (color 0 0 0 0)
     (uuid 56a7902e-e06c-455a-a704-882fac04d1fd)
@@ -720,9 +660,6 @@
   (junction (at 163.83 48.26) (diameter 0) (color 0 0 0 0)
     (uuid ddb9e591-0b93-4dc7-a7e0-893c019db292)
   )
-  (junction (at 107.95 125.73) (diameter 0) (color 0 0 0 0)
-    (uuid e0506881-d630-46b8-b9f2-1d88cd7e83e5)
-  )
   (junction (at 172.72 86.36) (diameter 0) (color 0 0 0 0)
     (uuid e58be8d6-234b-486b-8c55-64f734cc05ab)
   )
@@ -811,10 +748,6 @@
   (wire (pts (xy 119.38 88.9) (xy 119.38 86.36))
     (stroke (width 0) (type default))
     (uuid 0e33521e-197b-437f-a30d-fe4568ee16ec)
-  )
-  (wire (pts (xy 99.06 125.73) (xy 107.95 125.73))
-    (stroke (width 0) (type default))
-    (uuid 0ee9bde4-e786-46f4-8f19-637164354b3c)
   )
   (wire (pts (xy 254 48.26) (xy 262.89 48.26))
     (stroke (width 0) (type default))
@@ -968,10 +901,6 @@
     (stroke (width 0) (type default))
     (uuid 37104928-1c07-4872-95ae-b83dcde4c0be)
   )
-  (wire (pts (xy 119.38 125.73) (xy 121.92 125.73))
-    (stroke (width 0) (type default))
-    (uuid 3827a5dc-46c5-4df6-9bc8-035f24119bc2)
-  )
   (wire (pts (xy 101.6 62.23) (xy 110.49 62.23))
     (stroke (width 0) (type default))
     (uuid 3ac79633-d0ed-4ebf-aecb-86a9d670cdea)
@@ -1096,7 +1025,7 @@
     (stroke (width 0) (type default))
     (uuid 6fbf858e-0b6e-414c-b285-89e723d89bfb)
   )
-  (wire (pts (xy 121.92 125.73) (xy 123.19 125.73))
+  (wire (pts (xy 119.38 125.73) (xy 123.19 125.73))
     (stroke (width 0) (type default))
     (uuid 74442c51-5e90-4297-9964-2413cdfc366f)
   )
@@ -1336,14 +1265,6 @@
     (stroke (width 0) (type default))
     (uuid c53fa39a-6ddf-4ac6-8f53-b71981047ad6)
   )
-  (wire (pts (xy 121.92 125.73) (xy 121.92 130.81))
-    (stroke (width 0) (type default))
-    (uuid c6b00ee5-4f61-4926-832f-6a53fa4ea438)
-  )
-  (wire (pts (xy 99.06 153.67) (xy 107.95 153.67))
-    (stroke (width 0) (type default))
-    (uuid c8af328f-995e-49f7-9988-5b870b3b1a85)
-  )
   (wire (pts (xy 227.33 69.85) (xy 227.33 72.39))
     (stroke (width 0) (type default))
     (uuid c8b17bf4-4511-4b25-8f17-d13cc532b303)
@@ -1384,7 +1305,7 @@
     (stroke (width 0) (type default))
     (uuid d4159274-975b-436c-bc8c-c757730e29ca)
   )
-  (wire (pts (xy 132.08 125.73) (xy 134.62 125.73))
+  (wire (pts (xy 130.81 125.73) (xy 134.62 125.73))
     (stroke (width 0) (type default))
     (uuid d4a516d0-2bcb-44b7-a549-b01ecb0860ec)
   )
@@ -1395,10 +1316,6 @@
   (wire (pts (xy 148.59 128.27) (xy 148.59 125.73))
     (stroke (width 0) (type default))
     (uuid d59baba9-4c24-4347-b533-812c34711573)
-  )
-  (wire (pts (xy 130.81 125.73) (xy 132.08 125.73))
-    (stroke (width 0) (type default))
-    (uuid d9883eef-c147-4769-aae9-bb2c8d06cd62)
   )
   (wire (pts (xy 146.05 45.72) (xy 146.05 48.26))
     (stroke (width 0) (type default))
@@ -1412,7 +1329,7 @@
     (stroke (width 0) (type default))
     (uuid db433b0e-3afd-43bf-8b15-8a5af6e0d288)
   )
-  (wire (pts (xy 107.95 153.67) (xy 148.59 153.67))
+  (wire (pts (xy 99.06 153.67) (xy 148.59 153.67))
     (stroke (width 0) (type default))
     (uuid db773ce2-aed4-4d34-8865-4ab686998e05)
   )
@@ -1432,10 +1349,6 @@
     (stroke (width 0) (type default))
     (uuid df4b6f40-4a19-4080-966f-d44ffcdb6d3a)
   )
-  (wire (pts (xy 132.08 125.73) (xy 132.08 130.81))
-    (stroke (width 0) (type default))
-    (uuid df537346-f2a7-4059-9c35-b1ca37dbe3d5)
-  )
   (wire (pts (xy 191.77 40.64) (xy 191.77 38.1))
     (stroke (width 0) (type default))
     (uuid dfab7584-83a3-4a90-b5b9-c98c028a5beb)
@@ -1443,10 +1356,6 @@
   (wire (pts (xy 119.38 72.39) (xy 128.27 72.39))
     (stroke (width 0) (type default))
     (uuid dfc08bbe-a5f9-45e9-9e0c-df0dc548f59f)
-  )
-  (wire (pts (xy 123.19 130.81) (xy 121.92 130.81))
-    (stroke (width 0) (type default))
-    (uuid dfdad1ba-f420-4e8b-8ea8-a67656eb5fc4)
   )
   (wire (pts (xy 254 45.72) (xy 254 48.26))
     (stroke (width 0) (type default))
@@ -1472,10 +1381,6 @@
     (stroke (width 0) (type default))
     (uuid e3176361-e1f9-4784-9c3b-7f25cc5fb188)
   )
-  (wire (pts (xy 130.81 130.81) (xy 132.08 130.81))
-    (stroke (width 0) (type default))
-    (uuid e5f2b798-e5fc-4228-8e3f-81c8586c2866)
-  )
   (wire (pts (xy 209.55 64.77) (xy 209.55 62.23))
     (stroke (width 0) (type default))
     (uuid e9363908-6285-48c1-a671-8430023482e1)
@@ -1492,7 +1397,7 @@
     (stroke (width 0) (type default))
     (uuid eef08210-9fdb-49c9-9f73-1cf7a2638220)
   )
-  (wire (pts (xy 107.95 125.73) (xy 119.38 125.73))
+  (wire (pts (xy 99.06 125.73) (xy 119.38 125.73))
     (stroke (width 0) (type default))
     (uuid f07d7bab-871f-430b-8bb5-42531ffd2fc9)
   )
@@ -1655,7 +1560,7 @@
   (symbol (lib_id "power:+24V") (at 101.6 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 136c4974-9da9-4cdf-8589-c2c8f2775157)
-    (property "Reference" "#PWR016" (at 101.6 41.91 0)
+    (property "Reference" "#PWR03" (at 101.6 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 101.6 33.02 0)
@@ -1671,7 +1576,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1699,7 +1604,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1708,7 +1613,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1df0bf2b-7737-43a7-817c-1ec153962433)
-    (property "Reference" "C18" (at 166.37 66.0463 0)
+    (property "Reference" "C25" (at 166.37 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 166.37 68.5863 0)
@@ -1725,7 +1630,35 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C18") (unit 1)
+          (reference "C25") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 93.98 139.7 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1e731f82-bb1c-47d3-9a57-7eb4f78d9050)
+    (property "Reference" "J1" (at 92.71 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "A" (at 95.25 137.16 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "Connector_My:Power_Wire" (at 93.98 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4c3aa77e-d984-44ef-99d5-58c04ecffbee))
+    (instances
+      (project "Силовая плата"
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
+          (reference "J1") (unit 1)
+        )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1734,7 +1667,7 @@
   (symbol (lib_id "power:+24V") (at 101.6 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26e5da96-806b-4b39-a60a-f2e64299c22c)
-    (property "Reference" "#PWR05" (at 101.6 90.17 0)
+    (property "Reference" "#PWR07" (at 101.6 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 101.6 81.28 0)
@@ -1750,7 +1683,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1759,7 +1692,7 @@
   (symbol (lib_id "Device:C_Small") (at 254 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27ee27f1-9944-4e42-8a86-510f9703a0c3)
-    (property "Reference" "C40" (at 256.54 41.9163 0)
+    (property "Reference" "C45" (at 256.54 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 256.54 44.4563 0)
@@ -1776,7 +1709,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C40") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -1785,7 +1718,7 @@
   (symbol (lib_id "Device:C_Small") (at 245.11 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fc757ab-5b5e-48c8-9f42-ce5c5790d0e6)
-    (property "Reference" "C39" (at 247.65 41.9163 0)
+    (property "Reference" "C44" (at 247.65 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 247.65 44.4563 0)
@@ -1802,7 +1735,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C39") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -1811,7 +1744,7 @@
   (symbol (lib_id "power:+24V") (at 191.77 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34398583-377b-4fce-9030-16eaaa224282)
-    (property "Reference" "#PWR019" (at 191.77 41.91 0)
+    (property "Reference" "#PWR011" (at 191.77 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 191.77 33.02 0)
@@ -1827,7 +1760,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1863,7 +1796,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5295de06-9516-47bf-bdca-4dddbb246254)
-    (property "Reference" "C16" (at 148.59 66.0463 0)
+    (property "Reference" "C19" (at 148.59 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 148.59 68.5863 0)
@@ -1880,33 +1813,32 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C16") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 127 130.81 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 532ecaeb-d4fa-4b22-8476-726ce21f3c79)
-    (property "Reference" "R2" (at 127 128.27 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R" (at 127 127 90)
+  (symbol (lib_id "power:Earth_Protective") (at 99.06 139.7 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 54da944c-2b30-4e56-804c-80455fc36cb6)
+    (property "Reference" "#PWR028" (at 105.41 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shunt_My:TLRS1050" (at 127 132.588 90)
+    (property "Value" "Earth_Protective" (at 102.87 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 127 130.81 0)
+    (property "Footprint" "" (at 101.6 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f26f7df-9dc0-41bd-9b95-945a83917fe2))
-    (pin "2" (uuid 82572c67-65f1-4c56-9834-e0f9ff2d9fc9))
+    (property "Datasheet" "~" (at 101.6 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a110baa9-15e7-444a-993f-c2eef814f60e))
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "R2") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1915,7 +1847,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57fe8da7-f1c2-4f1c-a55d-797b5edaed43)
-    (property "Reference" "C14" (at 130.81 66.0463 0)
+    (property "Reference" "C13" (at 130.81 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 130.81 68.5863 0)
@@ -1932,7 +1864,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1941,7 +1873,7 @@
   (symbol (lib_id "Device:C_Small") (at 154.94 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b852853-1a53-4927-93c3-b84a7ff56ee9)
-    (property "Reference" "C27" (at 157.48 90.1763 0)
+    (property "Reference" "C23" (at 157.48 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 157.48 92.7163 0)
@@ -1958,7 +1890,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C27") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1992,12 +1924,12 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 210.82 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c51e63b-917f-4c49-9712-1e3cf3c92b91)
-    (property "Reference" "J1" (at 212.09 132.08 90)
+    (property "Reference" "J1" (at 212.09 132.08 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Conn_01x01" (at 209.55 132.08 90)
+    (property "Value" "A" (at 209.55 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "Connector_My:Power_Wire" (at 210.82 129.54 0)
@@ -2013,7 +1945,7 @@
           (reference "J1") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "J3") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2022,7 +1954,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d559bbd-0ad1-44d9-b52b-e48890225361)
-    (property "Reference" "C9" (at 148.59 41.9163 0)
+    (property "Reference" "C18" (at 148.59 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 148.59 44.4563 0)
@@ -2039,7 +1971,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C9") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -2074,7 +2006,7 @@
   (symbol (lib_id "Device:C_Small") (at 209.55 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6088780f-73e3-4454-b0cd-8ca0525afc10)
-    (property "Reference" "C45" (at 212.09 66.0463 0)
+    (property "Reference" "C38" (at 212.09 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 212.09 68.5863 0)
@@ -2091,7 +2023,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C45") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -2146,7 +2078,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2155,7 +2087,7 @@
   (symbol (lib_id "Device:C_Small") (at 181.61 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 659cb474-7ca0-42a1-b599-165d817bd011)
-    (property "Reference" "C30" (at 184.15 90.1763 0)
+    (property "Reference" "C32" (at 184.15 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 184.15 92.7163 0)
@@ -2172,7 +2104,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C30") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -2181,7 +2113,7 @@
   (symbol (lib_id "Device:C_Small") (at 154.94 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a729f14-bcb7-41cd-9b87-b226151e1ef4)
-    (property "Reference" "C10" (at 157.48 41.9163 0)
+    (property "Reference" "C21" (at 157.48 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 157.48 44.4563 0)
@@ -2198,7 +2130,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C10") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -2207,7 +2139,7 @@
   (symbol (lib_id "power:+24V") (at 191.77 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bce5007-6ea6-4532-996a-1f05fe7f9288)
-    (property "Reference" "#PWR022" (at 191.77 66.04 0)
+    (property "Reference" "#PWR013" (at 191.77 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 191.77 57.15 0)
@@ -2223,7 +2155,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2232,7 +2164,7 @@
   (symbol (lib_id "Device:C_Small") (at 119.38 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bea8c0e-93ff-4ce6-8f0e-431ed018cb38)
-    (property "Reference" "C13" (at 121.92 66.0463 0)
+    (property "Reference" "C10" (at 121.92 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 121.92 68.5863 0)
@@ -2249,19 +2181,19 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C13") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 210.82 149.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ca88dff-6ed9-484a-9c09-e9c610895860)
-    (property "Reference" "J3" (at 212.09 152.4 90)
+    (property "Reference" "J3" (at 212.09 152.4 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Conn_01x01" (at 209.55 152.4 90)
+    (property "Value" "C" (at 209.55 152.4 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "Connector_My:Power_Wire" (at 210.82 149.86 0)
@@ -2277,7 +2209,7 @@
           (reference "J3") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "J5") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2286,7 +2218,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dca455c-3e18-49fe-9ac6-a35d461b0e82)
-    (property "Reference" "C22" (at 113.03 90.1763 0)
+    (property "Reference" "C8" (at 113.03 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 113.03 92.7163 0)
@@ -2303,36 +2235,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 107.95 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 77258bad-0dce-4250-aff2-ff7416cf411e)
-    (property "Reference" "C3" (at 111.76 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1500p" (at 111.76 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3" (at 108.9152 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.95 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dbc8d977-f886-4feb-98d0-c143228e5cc4))
-    (pin "2" (uuid bb1b84a8-9128-48fd-8921-d8130752bf4d))
-    (instances
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "C3") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2341,7 +2244,7 @@
   (symbol (lib_id "Device:C_Small") (at 218.44 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77617088-6f9b-4a4a-b914-75aea56c8cc4)
-    (property "Reference" "C36" (at 220.98 41.9163 0)
+    (property "Reference" "C39" (at 220.98 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 220.98 44.4563 0)
@@ -2358,7 +2261,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C36") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -2386,7 +2289,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2395,7 +2298,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7967e944-04b8-4e3b-9bba-81e4b073331a)
-    (property "Reference" "C26" (at 148.59 90.1763 0)
+    (property "Reference" "C20" (at 148.59 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 148.59 92.7163 0)
@@ -2412,7 +2315,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C26") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -2465,7 +2368,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2474,7 +2377,7 @@
   (symbol (lib_id "Device:C_Small") (at 101.6 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86dc13ed-fb38-402f-83df-4fb3c8e27551)
-    (property "Reference" "C1" (at 104.14 66.0463 0)
+    (property "Reference" "C2" (at 104.14 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 104.14 68.5863 0)
@@ -2491,7 +2394,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2524,45 +2427,16 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 107.95 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8aaed5e8-6fb0-45a4-b540-1dac365b2228)
-    (property "Reference" "C3" (at 111.76 156.21 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1500p" (at 111.76 158.75 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3" (at 108.9152 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.95 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8b046f83-6e88-45cc-878f-2860604a2f5e))
-    (pin "2" (uuid 5d3cd1b7-2c76-4313-bbcd-4700b06a9d23))
-    (instances
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "C3") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 127 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 948c56b9-a348-44f8-ab5c-824ee4c79326)
     (property "Reference" "R1" (at 127 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 127 121.92 90)
+    (property "Value" "PU2512FKGP60U5L" (at 127 121.92 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Shunt_My:TLRS1050" (at 127 127.508 90)
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" (at 127 127.508 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 125.73 0)
@@ -2579,35 +2453,10 @@
     )
   )
 
-  (symbol (lib_id "power:Earth_Protective") (at 107.95 161.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 977587f6-88e1-41d3-89c8-86809c09f407)
-    (property "Reference" "#PWR026" (at 114.3 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth_Protective" (at 119.38 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 107.95 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.95 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 38d046a5-e4f0-40c8-9102-379370646b3e))
-    (instances
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR026") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 200.66 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9833626f-20bc-4dcc-b10c-53bbc402d882)
-    (property "Reference" "C34" (at 203.2 41.9163 0)
+    (property "Reference" "C35" (at 203.2 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 203.2 44.4563 0)
@@ -2624,7 +2473,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C34") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -2633,7 +2482,7 @@
   (symbol (lib_id "Device:C_Small") (at 227.33 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bedb0c7-23cc-4047-85a5-822accc45a67)
-    (property "Reference" "C47" (at 229.87 66.0463 0)
+    (property "Reference" "C42" (at 229.87 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 229.87 68.5863 0)
@@ -2650,7 +2499,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C47") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -2659,7 +2508,7 @@
   (symbol (lib_id "power:+24V") (at 101.6 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c2af75c-016d-4065-ab6c-f282ef2f69aa)
-    (property "Reference" "#PWR03" (at 101.6 66.04 0)
+    (property "Reference" "#PWR05" (at 101.6 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 101.6 57.15 0)
@@ -2675,7 +2524,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2684,7 +2533,7 @@
   (symbol (lib_id "Device:C_Small") (at 218.44 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fd68fa6-a19f-49c7-9d84-8d0f6ef9b0f9)
-    (property "Reference" "C46" (at 220.98 66.0463 0)
+    (property "Reference" "C40" (at 220.98 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 220.98 68.5863 0)
@@ -2701,7 +2550,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C46") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -2710,7 +2559,7 @@
   (symbol (lib_id "Device:C_Small") (at 119.38 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a05970f8-229b-4a2d-b11e-3078c29d7b40)
-    (property "Reference" "C23" (at 121.92 90.1763 0)
+    (property "Reference" "C11" (at 121.92 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 121.92 92.7163 0)
@@ -2727,7 +2576,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C23") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2736,7 +2585,7 @@
   (symbol (lib_id "Device:C_Small") (at 209.55 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a312bb4a-c2b3-4ccc-886f-731d32ae1666)
-    (property "Reference" "C35" (at 212.09 41.9163 0)
+    (property "Reference" "C37" (at 212.09 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 212.09 44.4563 0)
@@ -2753,7 +2602,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C35") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -2762,7 +2611,7 @@
   (symbol (lib_id "Device:C_Small") (at 137.16 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad0c1e4c-6bfa-41ed-ac56-81e4375cfbc7)
-    (property "Reference" "C8" (at 139.7 41.9163 0)
+    (property "Reference" "C15" (at 139.7 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 139.7 44.4563 0)
@@ -2779,7 +2628,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C8") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -2788,7 +2637,7 @@
   (symbol (lib_id "Device:C_Small") (at 101.6 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afdebec9-ef27-48a1-ad76-d041fd28ebc3)
-    (property "Reference" "C21" (at 104.14 90.1763 0)
+    (property "Reference" "C3" (at 104.14 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 104.14 92.7163 0)
@@ -2805,7 +2654,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C21") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2814,7 +2663,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b16ca186-b0f6-442d-9cfa-fd60374e04b8)
-    (property "Reference" "C5" (at 130.81 41.9163 0)
+    (property "Reference" "C12" (at 130.81 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 130.81 44.4563 0)
@@ -2831,7 +2680,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C5") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2840,7 +2689,7 @@
   (symbol (lib_id "Device:C_Small") (at 227.33 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3288d46-4391-4d82-be63-14255de78b99)
-    (property "Reference" "C37" (at 229.87 41.9163 0)
+    (property "Reference" "C41" (at 229.87 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 229.87 44.4563 0)
@@ -2857,7 +2706,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C37") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -2866,7 +2715,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b537866b-6397-4580-8947-f4c1ad5d21fc)
-    (property "Reference" "C28" (at 166.37 90.1763 0)
+    (property "Reference" "C26" (at 166.37 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 166.37 92.7163 0)
@@ -2883,7 +2732,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C28") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -2892,7 +2741,7 @@
   (symbol (lib_id "Device:C_Small") (at 154.94 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba91fffe-6d28-4a40-bc03-37effce1b228)
-    (property "Reference" "C17" (at 157.48 66.0463 0)
+    (property "Reference" "C22" (at 157.48 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 157.48 68.5863 0)
@@ -2909,7 +2758,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C17") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -2918,7 +2767,7 @@
   (symbol (lib_id "Device:C_Small") (at 137.16 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbbe9157-63ab-4f54-a6f4-1a70204a1e3e)
-    (property "Reference" "C25" (at 139.7 90.1763 0)
+    (property "Reference" "C17" (at 139.7 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 139.7 92.7163 0)
@@ -2935,7 +2784,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C25") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2944,7 +2793,7 @@
   (symbol (lib_id "Device:C_Small") (at 137.16 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc609787-edc4-4fb3-9cde-2251581f0557)
-    (property "Reference" "C15" (at 139.7 66.0463 0)
+    (property "Reference" "C16" (at 139.7 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 139.7 68.5863 0)
@@ -2961,7 +2810,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C15") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -2970,7 +2819,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be9b3a8f-6368-47fe-9496-b4c1373b5c96)
-    (property "Reference" "C11" (at 166.37 41.9163 0)
+    (property "Reference" "C24" (at 166.37 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 166.37 44.4563 0)
@@ -2987,7 +2836,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C11") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -2996,7 +2845,7 @@
   (symbol (lib_id "Device:C_Small") (at 172.72 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4fdb556-a3c2-4f30-9638-4fe91952df19)
-    (property "Reference" "C19" (at 175.26 66.0463 0)
+    (property "Reference" "C28" (at 175.26 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 175.26 68.5863 0)
@@ -3013,19 +2862,19 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C19") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 210.82 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid c7000d56-e3ad-4276-bf1b-619c1c221500)
-    (property "Reference" "J2" (at 212.09 142.24 90)
+    (property "Reference" "J2" (at 212.09 142.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Conn_01x01" (at 209.55 142.24 90)
+    (property "Value" "B" (at 209.55 142.24 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "Connector_My:Power_Wire" (at 210.82 139.7 0)
@@ -3041,7 +2890,7 @@
           (reference "J2") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "J4") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3050,7 +2899,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8544c17-e7d4-473d-aaad-987f826f88cd)
-    (property "Reference" "C12" (at 113.03 66.0463 0)
+    (property "Reference" "C7" (at 113.03 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 113.03 68.5863 0)
@@ -3067,7 +2916,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C12") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3149,7 +2998,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3185,7 +3034,7 @@
   (symbol (lib_id "Device:C_Small") (at 101.6 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d652e9a6-d01b-4729-9d54-9c8ebde7a126)
-    (property "Reference" "C2" (at 104.14 41.9163 0)
+    (property "Reference" "C1" (at 104.14 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 104.14 44.4563 0)
@@ -3202,7 +3051,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3211,7 +3060,7 @@
   (symbol (lib_id "Device:C_Small") (at 172.72 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6a5161c-b5b8-4db4-ad5f-495395179714)
-    (property "Reference" "C31" (at 175.26 41.9163 0)
+    (property "Reference" "C27" (at 175.26 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 175.26 44.4563 0)
@@ -3228,7 +3077,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C31") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -3237,7 +3086,7 @@
   (symbol (lib_id "Device:C_Small") (at 191.77 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d941d63b-2df8-4217-9737-296717df9f1c)
-    (property "Reference" "C43" (at 194.31 66.0463 0)
+    (property "Reference" "C34" (at 194.31 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 194.31 68.5863 0)
@@ -3254,7 +3103,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C43") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -3263,7 +3112,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcaf64fb-b0d8-4061-bee7-bc0baa16d832)
-    (property "Reference" "C3" (at 113.03 41.9163 0)
+    (property "Reference" "C6" (at 113.03 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 113.03 44.4563 0)
@@ -3280,7 +3129,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3289,7 +3138,7 @@
   (symbol (lib_id "Device:C_Small") (at 262.89 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3eb6a2b-d9c2-450d-aae6-b7ee1d4fb489)
-    (property "Reference" "C41" (at 265.43 41.9163 0)
+    (property "Reference" "C46" (at 265.43 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 265.43 44.4563 0)
@@ -3306,7 +3155,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C41") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -3315,7 +3164,7 @@
   (symbol (lib_id "Device:C_Small") (at 119.38 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e413be3d-9ad2-4f12-81ba-28c3aaea76a1)
-    (property "Reference" "C4" (at 121.92 41.9163 0)
+    (property "Reference" "C9" (at 121.92 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 121.92 44.4563 0)
@@ -3332,7 +3181,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C4") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3341,7 +3190,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4fdd590-9e97-4925-bfe9-8d764b0302af)
-    (property "Reference" "C24" (at 130.81 90.1763 0)
+    (property "Reference" "C14" (at 130.81 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 130.81 92.7163 0)
@@ -3358,7 +3207,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C24") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -3367,7 +3216,7 @@
   (symbol (lib_id "Device:C_Small") (at 181.61 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9a28674-fda6-4a44-9e67-facda89999c2)
-    (property "Reference" "C32" (at 184.15 41.9163 0)
+    (property "Reference" "C30" (at 184.15 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 184.15 44.4563 0)
@@ -3384,7 +3233,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C32") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3393,7 +3242,7 @@
   (symbol (lib_id "Device:C_Small") (at 200.66 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea51158c-b611-4878-9264-9c28861365b8)
-    (property "Reference" "C44" (at 203.2 66.0463 0)
+    (property "Reference" "C36" (at 203.2 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 203.2 68.5863 0)
@@ -3410,7 +3259,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C44") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -3419,7 +3268,7 @@
   (symbol (lib_id "Device:C_Small") (at 236.22 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef542e40-e847-41b2-9b41-23c1c21a26b7)
-    (property "Reference" "C38" (at 238.76 41.9163 0)
+    (property "Reference" "C43" (at 238.76 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 238.76 44.4563 0)
@@ -3436,7 +3285,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C38") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -3445,7 +3294,7 @@
   (symbol (lib_id "Device:C_Small") (at 181.61 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f202a96a-565d-46d5-b174-5cdd961e2146)
-    (property "Reference" "C20" (at 184.15 66.0463 0)
+    (property "Reference" "C31" (at 184.15 66.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 184.15 68.5863 0)
@@ -3462,32 +3311,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:Earth_Protective") (at 107.95 118.11 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid faaad6da-a080-4547-813d-23361fe3de4e)
-    (property "Reference" "#PWR027" (at 101.6 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth_Protective" (at 96.52 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 107.95 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.95 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1a71b323-8f24-4b12-b6aa-8ab5defac2fe))
-    (instances
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "#PWR027") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -3523,7 +3347,7 @@
   (symbol (lib_id "Device:C_Small") (at 271.78 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffe78216-229e-4630-b6f4-fbdd34c2d142)
-    (property "Reference" "C42" (at 274.32 41.9163 0)
+    (property "Reference" "C47" (at 274.32 41.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 274.32 44.4563 0)
@@ -3540,7 +3364,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/c8b8118a-2e72-42b0-9c26-f9b5e594da69"
-          (reference "C42") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
     )

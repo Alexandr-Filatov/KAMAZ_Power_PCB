@@ -194,10 +194,10 @@
     (uuid ff944dd4-a94c-4910-b3a3-4c15126c1468)
   )
 
-  (global_label "Temp_B" (shape input) (at 116.84 53.34 0) (fields_autoplaced)
+  (global_label "Temp_A" (shape input) (at 116.84 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ac3cc9c5-086f-4a7b-976c-ec08c4282787)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.9613 53.34 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.7799 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -208,10 +208,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "Temp_A" (shape input) (at 116.84 93.98 0) (fields_autoplaced)
+  (global_label "Temp_B" (shape input) (at 116.84 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid de7050c4-100d-4dd3-b12d-340165fbe526)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.7799 93.98 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.9613 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -219,7 +219,7 @@
   (symbol (lib_id "power:GND") (at 114.3 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02a1a72e-add8-4b60-b3fa-7f4ee3ffade3)
-    (property "Reference" "#PWR035" (at 114.3 73.66 0)
+    (property "Reference" "#PWR025" (at 114.3 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 72.39 0)
@@ -235,7 +235,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -244,7 +244,7 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 114.3 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 177f958f-70b2-4a9f-8e9d-66f2acef2615)
-    (property "Reference" "TH2" (at 116.84 138.7475 0)
+    (property "Reference" "TH3" (at 116.84 138.7475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 116.84 141.2875 0)
@@ -261,7 +261,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
-          (reference "TH2") (unit 1)
+          (reference "TH3") (unit 1)
         )
       )
     )
@@ -270,7 +270,7 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 114.3 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3dffc97a-8fa9-4c4c-bb79-47bd4b626c2a)
-    (property "Reference" "TH1" (at 116.84 100.6475 0)
+    (property "Reference" "TH2" (at 116.84 100.6475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 116.84 103.1875 0)
@@ -287,7 +287,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
-          (reference "TH1") (unit 1)
+          (reference "TH2") (unit 1)
         )
       )
     )
@@ -296,7 +296,7 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 114.3 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c9a5449-65ad-47c7-b750-7e88e8167807)
-    (property "Reference" "TH3" (at 116.84 60.0075 0)
+    (property "Reference" "TH1" (at 116.84 60.0075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 116.84 62.5475 0)
@@ -313,7 +313,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
-          (reference "TH3") (unit 1)
+          (reference "TH1") (unit 1)
         )
       )
     )
@@ -322,7 +322,7 @@
   (symbol (lib_id "power:GND") (at 114.3 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af90560c-18e4-4bb7-bd19-44945aaf00e8)
-    (property "Reference" "#PWR029" (at 114.3 152.4 0)
+    (property "Reference" "#PWR027" (at 114.3 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 151.13 0)
@@ -338,7 +338,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -347,7 +347,7 @@
   (symbol (lib_id "power:GND") (at 114.3 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed405032-4691-49fb-b3f2-6173bd9af0c9)
-    (property "Reference" "#PWR021" (at 114.3 114.3 0)
+    (property "Reference" "#PWR026" (at 114.3 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 113.03 0)
@@ -363,7 +363,7 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
