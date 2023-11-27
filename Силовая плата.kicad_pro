@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 3.0,
-          "height": 5.0,
-          "width": 5.0
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "3D models/Силовая плата.step",
+      "step": "../3D модели/Силовая плата.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
