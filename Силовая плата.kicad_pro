@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../3D модели/Силовая плата.step",
+      "step": "3D models/Силовая плата.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
