@@ -1,0 +1,17 @@
+"null","Sourced","Placed","References","Value","Footprint","Quantity"
+1,"","","C1, C2, C3, C6, C7, C8, C9, C10, C11, C12, C13, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47","10u","C_1210_3225Metric_Pad1.33x2.70mm_HandSolder",43
+2,"","","C14, C30, C48","0.1u","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",3
+3,"","","C4, C5","1500p","C_Disc_D7.5mm_W5.0mm_P7.50mm",2
+4,"","","R1","PU2512FKGP60U5L","R_2512_6332Metric_Pad1.40x3.35mm_HandSolder",1
+5,"","","R3","100k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",1
+6,"","","D2, D3, D4","STLM75DS2F","MSOP-8_3x3mm_P0.65mm",3
+7,"","","D1","BZT52C10","D_SOD-123",1
+8,"","","Q1, Q2, Q3, Q4, Q5, Q6","2N7002","IPTG007N06NM5ATMA1",6
+9,"","","H1, H2, H3, H4","MountingHole","MountingHole_3.2mm_M3",4
+10,"","","Q7","BSS214NW","IPTG007N06NM5ATMA1",1
+11,"","","J1","A","Power_Wire",1
+12,"","","J2","B","Power_Wire",1
+13,"","","J3","C","Power_Wire",1
+14,"","","J4","IN-","Power_Wire",1
+15,"","","J5","IN+","Power_Wire",1
+16,"","","J6","Conn_02x10_Odd_Even","PinSocket_2x10_P2.54mm_Vertical",1
