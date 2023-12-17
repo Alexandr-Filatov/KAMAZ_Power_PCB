@@ -139,7 +139,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/12acfa45-2fd2-45c6-9eb8-853ff3256ac4")
     (attr smd)
-    (fp_text reference "C12" (at 0 2.54 90) (layer "F.SilkS")
+    (fp_text reference "C12" (at 3.556 -0.127 180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8d449554-77d0-442d-83d6-e5cdebd0629d)
     )
@@ -191,11 +191,19 @@
     (property "ki_keywords" "connector")
     (path "/35beb8cb-1246-438f-b931-4f19d78ee501")
     (attr through_hole)
+<<<<<<< HEAD
     (fp_text reference "J7" (at 0 6.985 unlocked) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f2dc6995-0242-4699-8177-f1dd653e3507)
     )
     (fp_text value "C" (at 5.334 12.192 unlocked) (layer "F.SilkS")
+=======
+    (fp_text reference "J3" (at 0 6.985 unlocked) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f2dc6995-0242-4699-8177-f1dd653e3507)
+    )
+    (fp_text value "C" (at 5.842 12.192 unlocked) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 2 2) (thickness 0.3)))
       (tstamp 56bc1f93-2b9b-4eaa-9ae1-67640b5ab90c)
     )
@@ -216,7 +224,11 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b67ceb5d-28b0-48ef-bc16-5fbe2950bfea)
     )
+<<<<<<< HEAD
     (fp_text value "A" (at -5.334 12.192 unlocked) (layer "F.SilkS")
+=======
+    (fp_text value "A" (at -5.842 12.192 unlocked) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 2 2) (thickness 0.3)))
       (tstamp 65be5d6c-e643-4056-a45c-270fb67ddfed)
     )
@@ -235,7 +247,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/ad749639-774a-479a-bea9-a38d7cb59f88")
     (attr smd)
-    (fp_text reference "C13" (at 0.2925 2.54 90) (layer "F.SilkS")
+    (fp_text reference "C13" (at -3.3905 0.127 180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e985d8b-f203-434a-b20a-1e8135d797a0)
     )
@@ -289,7 +301,11 @@
     (property "ki_keywords" "N-Channel Switching MOSFET")
     (path "/93a39849-ac56-402a-b387-547ba4a47dcd")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "Q7" (at 0 -7.62 180) (layer "F.SilkS")
+=======
+    (fp_text reference "Q6" (at 0 -7.493 180) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0fe5507-713c-40b7-816a-75e634cb0975)
     )
@@ -427,7 +443,11 @@
     (property "ki_keywords" "capacitor cap")
     (path "/d43cc801-eb45-482e-ae3e-19226693fbea")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "C10" (at -3.1365 0.127) (layer "F.SilkS")
+=======
+    (fp_text reference "C10" (at -3.3905 0.127) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b623a71-2de1-4508-8cfe-a212a9f74294)
     )
@@ -479,11 +499,15 @@
     (property "ki_keywords" "connector")
     (path "/80b99a9a-3814-45cb-8585-1c45c05c84d8")
     (attr through_hole)
+<<<<<<< HEAD
     (fp_text reference "J3" (at -5.715 0 unlocked) (layer "F.SilkS")
+=======
+    (fp_text reference "J5" (at -7.62 1.397 unlocked) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp deafb285-6615-479b-91c0-b68b72162313)
     )
-    (fp_text value "IN+" (at 0 7.62 unlocked) (layer "F.SilkS")
+    (fp_text value "IN+" (at 4.572 4.953 unlocked) (layer "F.SilkS")
         (effects (font (size 2 2) (thickness 0.3)))
       (tstamp a8143c95-24d2-4495-b808-8e90a684a2bf)
     )
@@ -506,7 +530,11 @@
     (property "ki_keywords" "N-Channel MOSFET")
     (path "/520152dc-ca7b-4b28-a9ab-d9091dbacbcb")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "Q1" (at -7.62 -1.905 180) (layer "F.SilkS")
+=======
+    (fp_text reference "Q7" (at -0.127 10.033 180) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e3290e7-bdaa-453b-b7c2-e08ac2a8cc00)
     )
@@ -714,7 +742,11 @@
     (property "ki_keywords" "connector")
     (path "/93313f38-6406-4413-9520-2f7684937db5")
     (attr through_hole)
+<<<<<<< HEAD
     (fp_text reference "J4" (at 2.794 2.54) (layer "F.SilkS")
+=======
+    (fp_text reference "J6" (at 2.667 11.303) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ad670b60-8204-403b-b0c3-519b57fe0e5e)
     )
@@ -816,11 +848,19 @@
     (property "ki_keywords" "connector")
     (path "/f77bbae7-37e8-4f5b-9922-6206d95236e6")
     (attr through_hole)
+<<<<<<< HEAD
     (fp_text reference "J6" (at 0 7.366 unlocked) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c6c2134c-0bb2-4d35-bd23-05a05fa69a70)
     )
     (fp_text value "B" (at 0 18.034 unlocked) (layer "F.SilkS")
+=======
+    (fp_text reference "J2" (at 0 7.112 unlocked) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp c6c2134c-0bb2-4d35-bd23-05a05fa69a70)
+    )
+    (fp_text value "B" (at 0 18.542 unlocked) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 2 2) (thickness 0.3)))
       (tstamp c769446b-fe4e-410a-8ed2-bcb665ef1531)
     )
@@ -839,7 +879,11 @@
     (property "ki_keywords" "N-Channel Switching MOSFET")
     (path "/bf1d09bc-dc79-4c3f-86d5-b984a331a468")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "Q6" (at -7.112 0 180) (layer "F.SilkS")
+=======
+    (fp_text reference "Q5" (at -7.112 0 180) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e5eafee-f360-40d3-8bce-df1508d289fb)
     )
@@ -923,7 +967,11 @@
     (property "ki_keywords" "cap capacitor")
     (path "/6ae0d5c4-7842-4218-9472-96afacbef7f7")
     (attr through_hole)
+<<<<<<< HEAD
     (fp_text reference "C7" (at 3.75 0.009 90) (layer "F.SilkS")
+=======
+    (fp_text reference "C4" (at -2.092 0.127 180) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8c81879a-8055-47f9-879e-c75ce12fa930)
     )
@@ -1161,11 +1209,15 @@
     (property "ki_keywords" "connector")
     (path "/3587f120-9ec5-4ceb-a6f1-b0f7283244d4")
     (attr through_hole)
+<<<<<<< HEAD
     (fp_text reference "J2" (at 5.715 0 unlocked) (layer "F.SilkS")
+=======
+    (fp_text reference "J4" (at 7.493 1.397 unlocked) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39097b46-5ee5-43ec-89c7-2235ac2327cc)
     )
-    (fp_text value "IN-" (at 0 7.62 unlocked) (layer "F.SilkS")
+    (fp_text value "IN-" (at -4.191 4.953 unlocked) (layer "F.SilkS")
         (effects (font (size 2 2) (thickness 0.3)))
       (tstamp f83fc5d8-7e1c-4e8f-b702-963259f7c102)
     )
@@ -1188,7 +1240,11 @@
     (property "ki_keywords" "capacitor cap")
     (path "/45bb2fbe-bf21-4e9c-ac0a-a38574cbedfd")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "C39" (at 0.2925 -2.54 270) (layer "F.SilkS")
+=======
+    (fp_text reference "C41" (at -3.3905 0.127) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9b7dbf6c-5a89-4809-9926-8d71cb690ca2)
     )
@@ -1242,7 +1298,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/06207310-7245-4320-9e89-966342653891")
     (attr smd)
-    (fp_text reference "R1" (at 0 2.54 180) (layer "F.SilkS")
+    (fp_text reference "R1" (at 5.207 0.127 180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eab5a2af-d47c-4ff0-af65-c8dfa8f31d51)
     )
@@ -1327,7 +1383,11 @@
     (property "ki_keywords" "N-Channel Switching MOSFET")
     (path "/6e75a4f6-45d5-4061-a1e2-a9796595264b")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "Q5" (at 0 -7.62) (layer "F.SilkS")
+=======
+    (fp_text reference "Q4" (at 1.524 -7.239) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d57d92a2-4e68-441c-bc9d-e56c3cf7ef90)
     )
@@ -1443,7 +1503,11 @@
     (property "ki_keywords" "N-Channel Switching MOSFET")
     (path "/6766dc7f-035f-4b12-b9b5-1c0b6feea18c")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "Q3" (at 0 -8.26 180) (layer "F.SilkS")
+=======
+    (fp_text reference "Q2" (at 0 -7.498 180) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c60f744-d0de-43e1-8f7f-1cff499b8905)
     )
@@ -1527,7 +1591,7 @@
     (property "ki_keywords" "diode")
     (path "/f98cc75f-56f9-4c0b-956b-dec8935c14c3")
     (attr smd)
-    (fp_text reference "D1" (at -0.255 1.905 180) (layer "F.SilkS")
+    (fp_text reference "D1" (at -0.255 1.905 270) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 29e26816-1fdc-4150-8d7a-4413cd5a65a2)
     )
@@ -1651,7 +1715,11 @@
     (property "ki_keywords" "cap capacitor")
     (path "/83d77446-9c50-48f6-a305-85ad3172d852")
     (attr through_hole)
+<<<<<<< HEAD
     (fp_text reference "C8" (at 3.802 -0.009 -270) (layer "F.SilkS")
+=======
+    (fp_text reference "C5" (at 9.592 -0.127 -180) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3ba3ed9f-7640-46d8-bb99-76a4e0809a3f)
     )
@@ -1713,7 +1781,11 @@
     (property "ki_keywords" "capacitor cap")
     (path "/d4c1c8b1-e448-44e7-a093-91f641a8a0ec")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "C20" (at 0.127 2.413 90) (layer "F.SilkS")
+=======
+    (fp_text reference "C21" (at -0.127 2.413 90) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 90c65bf7-d994-4e11-a89b-f1831bd27fb3)
     )
@@ -1821,7 +1893,11 @@
     (property "ki_keywords" "R resistor")
     (path "/a64bd8bf-6cd1-4b0e-8f44-7163446bc152")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "R2" (at 0 -1.905) (layer "F.SilkS")
+=======
+    (fp_text reference "R3" (at 0 -1.905 -90) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9806d9eb-7087-431d-a1ad-54d70dee109c)
     )
@@ -1875,7 +1951,11 @@
     (property "ki_keywords" "N-Channel Switching MOSFET")
     (path "/5b584f90-2549-4bae-82d2-54e70cd693ef")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "Q4" (at 0 -7.62) (layer "F.SilkS")
+=======
+    (fp_text reference "Q3" (at -1.524 -7.258) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 37b4d620-5964-48e8-899a-9c35b88bb9b6)
     )
@@ -1990,7 +2070,11 @@
     (property "ki_keywords" "N-Channel Switching MOSFET")
     (path "/987a0d1d-9a16-468d-a50c-7eda8afcecc8")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "Q2" (at 7.239 0) (layer "F.SilkS")
+=======
+    (fp_text reference "Q1" (at 7.239 0) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 468004f5-f48d-4b9e-b89d-66a5ba51e10e)
     )
@@ -2106,7 +2190,11 @@
     (property "ki_keywords" "capacitor cap")
     (path "/f2d8ce44-9753-4b99-a774-abe4beaef273")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "C1" (at 3.302 0) (layer "F.SilkS")
+=======
+    (fp_text reference "C1" (at 3.556 0) (layer "F.SilkS")
+>>>>>>> refs/remotes/origin/master
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aaa4cbb7-8cfa-4721-8b75-0082d9379293)
     )
