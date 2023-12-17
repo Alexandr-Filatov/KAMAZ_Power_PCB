@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 8.2,
-          "width": 8.2
+          "drill": 3.2,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -446,7 +446,7 @@
       "step": "3D models/Силовая плата.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "gost_portrait.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -472,8 +472,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "page_layout_descr_file": "gost_landscape.kicad_wks",
+    "plot_directory": "Документы/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -486,22 +486,6 @@
     [
       "96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09",
       ""
-    ],
-    [
-      "c8b8118a-2e72-42b0-9c26-f9b5e594da69",
-      "Power"
-    ],
-    [
-      "1efb5faf-bb82-4ac6-a144-d6576b4720aa",
-      "Polarity_Protection"
-    ],
-    [
-      "a27b443f-c036-4fd6-934c-6ea912709de0",
-      "Connector"
-    ],
-    [
-      "005a885b-ef5f-4b8c-934f-72ceac7d73e5",
-      "Temperture"
     ]
   ],
   "text_variables": {}

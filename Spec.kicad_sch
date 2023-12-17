@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b1d92903-ff89-4511-a7b7-3663f9007877)
+
+  (paper "A4")
+
+  (title_block
+    (title "Перечень элементов силовой платы")
+    (date "2023-12-14")
+    (comment 1 "МПСТ.76721.758764.01.Э4.М  ")
+    (comment 2 "Филааов А.С")
+  )
+
+  (lib_symbols
+  )
+
+)

@@ -580,10 +580,10 @@
   (symbol (lib_id "Device:R_Small") (at 142.24 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0539384a-14c7-438f-90fa-8b95a258b63a)
-    (property "Reference" "R1" (at 144.78 96.52 0)
+    (property "Reference" "R1" (at 144.78 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100k" (at 144.78 99.06 0)
+    (property "Value" "100k" (at 144.78 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 142.24 97.79 0)
@@ -602,7 +602,7 @@
       )
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
