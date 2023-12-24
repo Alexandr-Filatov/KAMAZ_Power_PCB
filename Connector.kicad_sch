@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (company "Московский Политех")
+    (comment 1 "МПСТ.76721.758764.01.Э3.М")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x10_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 12.7 0)
@@ -375,6 +380,17 @@
     (uuid 8bc573fb-0113-49bd-a3ac-7178aea3287c)
   )
 
+  (rectangle (start 132.08 63.5) (end 182.88 107.95)
+    (stroke (width 0) (type dash))
+    (fill (type none))
+    (uuid 4c943653-6e16-49b7-bda8-213ad2660322)
+  )
+
+  (text "Соединительный разъём" (at 132.08 62.23 0)
+    (effects (font (size 3.5 3.5)) (justify left bottom))
+    (uuid 16e42698-877e-4819-805c-4c3ebc07508e)
+  )
+
   (global_label "C" (shape input) (at 163.83 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0f3f938a-f789-4a7d-b0aa-22fc28a54f48)
@@ -477,7 +493,7 @@
   (symbol (lib_id "power:GND") (at 151.13 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24f1c451-95dd-4aaf-963c-bc201b4dd86a)
-    (property "Reference" "#PWR018" (at 144.78 91.44 0)
+    (property "Reference" "#PWR019" (at 144.78 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 91.44 90)
@@ -493,20 +509,23 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "#PWR038") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x10_Odd_Even") (at 156.21 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3851fefb-6a37-4538-a86b-5fa6c8958c89)
-    (property "Reference" "J6" (at 157.48 68.58 0)
+    (property "Reference" "J7" (at 157.48 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x10_Odd_Even" (at 157.48 71.12 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (at 156.21 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -537,55 +556,10 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "J6") (unit 1)
+          (reference "J7") (unit 1)
         )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 48.26 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3cea6112-62bf-4eec-84a1-8820572b2f9a)
-    (property "Reference" "H4" (at 50.8 33.655 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Value" "MountingHole" (at 50.8 36.195 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 48.26 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 48.26 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 43.18 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6c49128a-8f73-4ab2-a71b-4565016eab14)
-    (property "Reference" "H3" (at 45.72 33.655 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Value" "MountingHole" (at 45.72 36.195 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 43.18 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 43.18 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "H3") (unit 1)
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -613,7 +587,10 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR020") (unit 1)
+        )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -622,7 +599,7 @@
   (symbol (lib_id "power:+3.3V") (at 151.13 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f9a7ece-0ff7-4421-95c9-b2ae0a9c040d)
-    (property "Reference" "#PWR042" (at 154.94 73.66 0)
+    (property "Reference" "#PWR016" (at 154.94 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 147.32 74.295 90)
@@ -638,31 +615,37 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR016") (unit 1)
+        )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "#PWR035") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 48.26 29.21 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 158.75 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95fb61d2-104e-4068-89ac-958d457d0735)
-    (property "Reference" "H2" (at 50.8 28.575 0)
+    (property "Reference" "H2" (at 161.29 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "MountingHole" (at 50.8 31.115 0)
+    (property "Value" "MountingHole" (at 161.29 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 48.26 29.21 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 158.75 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 48.26 29.21 0)
+    (property "Datasheet" "~" (at 158.75 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
           (reference "H2") (unit 1)
+        )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -689,29 +672,35 @@
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
           (reference "#PWR017") (unit 1)
         )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "#PWR036") (unit 1)
+        )
       )
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 43.18 29.21 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 153.67 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7d834d0-b83b-45ef-a0d9-4f70d9b5e4db)
-    (property "Reference" "H1" (at 45.72 28.575 0)
+    (property "Reference" "H1" (at 156.21 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "MountingHole" (at 45.72 31.115 0)
+    (property "Value" "MountingHole" (at 156.21 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 43.18 29.21 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 153.67 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 43.18 29.21 0)
+    (property "Datasheet" "~" (at 153.67 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
           (reference "H1") (unit 1)
+        )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -720,7 +709,7 @@
   (symbol (lib_id "power:GND") (at 163.83 83.82 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be1bb522-d144-4372-b6df-cead5413c884)
-    (property "Reference" "#PWR019" (at 170.18 83.82 0)
+    (property "Reference" "#PWR018" (at 170.18 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 83.82 90)
@@ -736,7 +725,10 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
+        )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -745,7 +737,7 @@
   (symbol (lib_id "power:GND") (at 163.83 93.98 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db61c94b-82b6-4bfd-9c73-9d801582535b)
-    (property "Reference" "#PWR022" (at 170.18 93.98 0)
+    (property "Reference" "#PWR021" (at 170.18 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 93.98 90)
@@ -761,7 +753,10 @@
     (instances
       (project "Силовая плата"
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
+        )
+        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/e8223907-1cc2-45fb-8266-c61760002ef3"
+          (reference "#PWR040") (unit 1)
         )
       )
     )

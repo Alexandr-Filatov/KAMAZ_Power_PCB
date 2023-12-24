@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 8.2,
-          "width": 8.2
+          "drill": 3.2,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -63,7 +63,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -81,7 +81,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -113,7 +113,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 3.0,
+        "min_copper_edge_clearance": 2.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -392,7 +392,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -446,7 +446,7 @@
       "step": "3D models/Силовая плата.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "gost_landscape.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -472,8 +472,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "page_layout_descr_file": "gost_landscape.kicad_wks",
+    "plot_directory": "../Отчетность/Силовая плата/Схема электрическая чертежи/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -492,6 +492,10 @@
       "Power"
     ],
     [
+      "005a885b-ef5f-4b8c-934f-72ceac7d73e5",
+      "Temperture"
+    ],
+    [
       "1efb5faf-bb82-4ac6-a144-d6576b4720aa",
       "Polarity_Protection"
     ],
@@ -500,8 +504,8 @@
       "Connector"
     ],
     [
-      "005a885b-ef5f-4b8c-934f-72ceac7d73e5",
-      "Temperture"
+      "e8223907-1cc2-45fb-8266-c61760002ef3",
+      "Connection_List"
     ]
   ],
   "text_variables": {}
