@@ -842,7 +842,7 @@
       (net 11 "Shunt_1") (pinfunction "Pin_19") (pintype "passive") (tstamp 83cb69df-b50b-41be-b792-a42b9153dee5))
     (pad "20" thru_hole oval (at -2 18) (size 1.35 1.35) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 12 "Shunt_2") (pinfunction "Pin_20") (pintype "passive") (tstamp 8f246813-f055-4861-ab10-97ad5b6f3695))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_2x10_P2.00mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_2x10_P2.00mm_Vertical.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -40558,8 +40558,8 @@
         (xy 179.161324 76.657935)
         (xy 179.207079 76.710739)
         (xy 179.21813 76.756058)
-        (xy 179.342753 79.248533)
-        (xy 179.338749 79.286571)
+        (xy 179.342753 79.248532)
+        (xy 179.338749 79.28657)
         (xy 179.267815 79.5535)
         (xy 178.956341 80.58085)
         (xy 178.60948 81.596799)
@@ -40684,7 +40684,7 @@
         (xy 178.007419 79.571966)
         (xy 177.912773 79.408034)
         (xy 177.786111 79.267362)
-        (xy 177.78611 79.267361)
+        (xy 177.760194 79.248532)
         (xy 177.632974 79.156101)
         (xy 177.632969 79.156098)
         (xy 177.460047 79.079107)
