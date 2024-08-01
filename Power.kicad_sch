@@ -2322,7 +2322,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 88.265 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 65bcfd8e-e476-471f-b6d7-1b2beb493204)
     (property "Reference" "C51" (at 90.805 136.5312 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2348,7 +2348,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 93.345 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 68fcbd3c-f16e-4fa8-9b1b-3618e686f07c)
     (property "Reference" "C48" (at 95.885 135.8963 0)
       (effects (font (size 1.27 1.27)) (justify left))
