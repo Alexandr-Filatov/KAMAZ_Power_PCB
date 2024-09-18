@@ -266,7 +266,27 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 80.01) (xy 144.78 81.28)
+			(xy 170.815 81.28) (xy 173.355 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098bf075-2dce-4460-9cb3-1958a180fedd")
+	)
+	(wire
+		(pts
+			(xy 145.415 71.12) (xy 147.955 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e357971-e25d-4066-ad99-f8087a09cd0b")
+	)
+	(wire
+		(pts
+			(xy 120.015 80.01) (xy 120.015 81.28)
 		)
 		(stroke
 			(width 0)
@@ -276,7 +296,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 71.12) (xy 147.32 71.12)
+			(xy 120.015 71.12) (xy 122.555 71.12)
 		)
 		(stroke
 			(width 0)
@@ -286,7 +306,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 71.12) (xy 144.78 72.39)
+			(xy 120.015 71.12) (xy 120.015 72.39)
 		)
 		(stroke
 			(width 0)
@@ -296,7 +316,67 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 147.32 81.28)
+			(xy 145.415 81.28) (xy 147.955 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4add07-9bff-495f-89ca-52ec3193eac7")
+	)
+	(wire
+		(pts
+			(xy 145.415 71.12) (xy 145.415 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fd0480-a961-44bf-8b5f-f4ec4b1acb2c")
+	)
+	(wire
+		(pts
+			(xy 170.815 71.12) (xy 170.815 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee45c37-029e-4ed4-aca7-bbd804d19df5")
+	)
+	(wire
+		(pts
+			(xy 170.815 71.12) (xy 173.355 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a52c5e-26fe-4067-b1a2-24a8ca68c5ba")
+	)
+	(wire
+		(pts
+			(xy 170.815 80.01) (xy 170.815 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbdd6a6-cbef-4c15-a0ef-8bb6cbfb91e1")
+	)
+	(wire
+		(pts
+			(xy 145.415 80.01) (xy 145.415 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0af3a7-4859-4718-bebd-6c38e1d1b9f3")
+	)
+	(wire
+		(pts
+			(xy 120.015 81.28) (xy 122.555 81.28)
 		)
 		(stroke
 			(width 0)
@@ -304,9 +384,9 @@
 		)
 		(uuid "ef03cc35-574c-4f39-b73b-05543632afcb")
 	)
-	(global_label "NTC-"
+	(global_label "NTC_B+"
 		(shape input)
-		(at 147.32 81.28 0)
+		(at 147.955 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -314,9 +394,9 @@
 			)
 			(justify left)
 		)
-		(uuid "442e9cf7-bb19-42bd-b447-813000e86591")
+		(uuid "428bae77-84de-40ef-aae6-b5cb139ef5eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8968 81.28 0)
+			(at 156.6932 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,9 +406,31 @@
 			)
 		)
 	)
-	(global_label "NTC+"
+	(global_label "NTC_A-"
 		(shape input)
-		(at 147.32 71.12 0)
+		(at 122.555 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "442e9cf7-bb19-42bd-b447-813000e86591")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.4198 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NTC_A+"
+		(shape input)
+		(at 122.555 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -338,7 +440,73 @@
 		)
 		(uuid "4622bccb-ae21-47a2-9bf2-ede5bd726ea2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8968 71.12 0)
+			(at 131.4198 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NTC_C-"
+		(shape input)
+		(at 173.355 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a17b573-cce5-49c8-a9e6-65c14fa098f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.9654 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NTC_C+"
+		(shape input)
+		(at 173.355 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddbc241d-616b-4621-b854-3ccb93e6251b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.9654 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NTC_B-"
+		(shape input)
+		(at 147.955 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcf154e9-4cc3-4c3f-bc09-566a7e45b419")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.6932 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,16 +518,16 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 76.2 0)
+		(at 170.815 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a34069e8-9bf5-4d93-9a02-ca7dd0059fff")
-		(property "Reference" "TH2"
-			(at 147.955 75.8824 0)
+		(uuid "7be0831a-a39a-44fa-9335-065380761c9e")
+		(property "Reference" "TH3"
+			(at 173.99 75.8824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,7 +536,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 147.955 78.4224 0)
+			(at 173.99 78.4224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +546,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 144.78 74.93 0)
+			(at 170.815 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 74.93 0)
+			(at 170.815 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,8 +563,79 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 144.78 76.2 0)
+		(property "Description" "B57330V2103F260"
+			(at 170.815 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3d3e6a3-7ee4-4151-ab5f-88dc3b85a6cf")
+		)
+		(pin "2"
+			(uuid "9feeb7d6-4c90-4ff4-936e-04e4248e64a0")
+		)
+		(instances
+			(project "Силовая плата"
+				(path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
+					(reference "TH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 120.015 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a34069e8-9bf5-4d93-9a02-ca7dd0059fff")
+		(property "Reference" "TH2"
+			(at 123.19 75.8824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 123.19 78.4224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 120.015 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.015 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "B57330V2103F260"
+			(at 120.015 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,6 +653,77 @@
 			(project "Силовая плата"
 				(path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
 					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 145.415 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef43b8c8-4b1f-4418-86cd-e37fad774187")
+		(property "Reference" "TH1"
+			(at 148.59 75.8824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 148.59 78.4224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 145.415 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 145.415 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "B57330V2103F260"
+			(at 145.415 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5eecc14-f69a-4219-8ca6-d4caeb29a83c")
+		)
+		(pin "2"
+			(uuid "13bcef71-82c1-44b5-a8dd-9a977b539f7d")
+		)
+		(instances
+			(project "Силовая плата"
+				(path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/005a885b-ef5f-4b8c-934f-72ceac7d73e5"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
