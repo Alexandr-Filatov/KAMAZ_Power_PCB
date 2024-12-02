@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(company "Московский Политех")
-		(comment 1 "МПСТ.76721.758764.01.М Э3")
+		(comment 1 "МПСТ.6319.758764.01.М Э3")
 	)
 	(lib_symbols)
 	(polyline
@@ -30,8 +30,8 @@
 		(uuid "852adcf8-e83d-4a77-afba-fd567fa0bdfb")
 	)
 	(rectangle
-		(start 229.87 43.18)
-		(end 265.43 134.62)
+		(start 158.115 106.045)
+		(end 193.675 161.29)
 		(stroke
 			(width 0)
 			(type default)
@@ -39,7 +39,43 @@
 		(fill
 			(type none)
 		)
-		(uuid 4443e556-1bbe-42ee-81a4-36416ed9ff37)
+		(uuid 072585d0-47fd-4e95-a4c9-b7ebf97ca555)
+	)
+	(rectangle
+		(start 109.22 71.755)
+		(end 147.32 98.425)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26fd8bd9-7ab1-4877-8307-d99f0f6a3f58)
+	)
+	(rectangle
+		(start 158.115 43.18)
+		(end 193.675 98.425)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c01c1c3-1d2a-494b-a75f-dc63037a6708)
+	)
+	(rectangle
+		(start 224.155 106.045)
+		(end 259.715 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 569280ad-648e-4f42-b543-77caeacf76cd)
 	)
 	(rectangle
 		(start 40.64 43.18)
@@ -66,8 +102,8 @@
 		(uuid 9f7ab215-dffb-416c-8165-a2c14fa40946)
 	)
 	(rectangle
-		(start 163.83 43.18)
-		(end 199.39 134.62)
+		(start 106.68 106.045)
+		(end 142.24 161.29)
 		(stroke
 			(width 0)
 			(type default)
@@ -75,11 +111,122 @@
 		(fill
 			(type none)
 		)
-		(uuid d0382001-30d6-4b46-a90f-48ceda1a37cc)
+		(uuid b5ca585a-1724-428d-8d2f-92e63a04530b)
+	)
+	(rectangle
+		(start 40.64 71.755)
+		(end 78.74 98.425)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c03066cb-6077-4a59-b072-a3da22e84d44)
+	)
+	(rectangle
+		(start 40.64 106.045)
+		(end 76.2 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6f9e5fa-a1c0-4a2a-8243-6e8b3f08e041)
+	)
+	(rectangle
+		(start 224.155 43.18)
+		(end 259.715 98.425)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e7ac0430-c1b1-4eca-8faf-207ad3fef9f7)
+	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 224.155 117.475 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "016668d3-424d-4119-aa8b-14a0d8b91a9c")
+	)
+	(text_box "J7:6"
+		(exclude_from_sim no)
+		(at 208.915 140.335 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "036487ee-47c2-4834-9f4f-215422f3a701")
+	)
+	(text_box "B"
+		(exclude_from_sim no)
+		(at 224.155 69.85 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "04201794-37ec-4172-a70c-29303408ea60")
+	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 46.99 117.475 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "06ea53e3-8551-40d9-aad9-940d76fb96b3")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
-		(at 170.18 111.76 0)
+		(at 224.155 77.47 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -94,11 +241,29 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "01b470a2-40dd-4bb7-989e-ddb4135d0ba5")
+		(uuid "08e9ec6d-e249-41a0-9c5a-a708e35fca46")
 	)
-	(text_box "Shunt_2"
+	(text_box "J7:8"
 		(exclude_from_sim no)
-		(at 170.18 130.81 0)
+		(at 76.2 147.955 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "0a06581f-cdce-4a8f-8aa2-d23b24543801")
+	)
+	(text_box "NTC_B-"
+		(exclude_from_sim no)
+		(at 224.155 58.42 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -113,47 +278,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "02430acc-7b2c-4feb-b2f3-5810b8512fd3")
-	)
-	(text_box "J1:11"
-		(exclude_from_sim no)
-		(at 214.63 96.52 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "0644b56b-b74b-4a8f-8b3f-8718ab745cad")
-	)
-	(text_box "J1:15"
-		(exclude_from_sim no)
-		(at 214.63 111.76 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "068f1db6-0f1b-4796-8499-c4a7ac21118c")
+		(uuid "0ca807f5-ccce-4e80-b0b9-3faf5d0ea360")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
-		(at 170.18 92.71 0)
+		(at 106.68 132.715 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -168,11 +297,30 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "0fcceeb3-f32e-41eb-a044-3256a97dfe4e")
+		(uuid "0fa5da87-4e02-4ed5-b64f-b150e120154c")
 	)
-	(text_box "J7:19"
+	(text_box "NTC_C+\n"
 		(exclude_from_sim no)
-		(at 199.39 127 0)
+		(at 224.155 144.145 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "15cf1619-ba48-4bfb-bfcc-4c387626a2b9")
+	)
+	(text_box "J1"
+		(exclude_from_sim no)
+		(at 93.98 86.995 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -186,49 +334,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "118c459e-a7ad-4dcd-860d-cfad67673152")
+		(uuid "1657d2f8-86e7-4e9f-adc7-3f7852d9131e")
 	)
-	(text_box "Shunt_1"
+	(text_box "J17:5\n"
 		(exclude_from_sim no)
-		(at 229.87 127 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "147cc409-133b-4f8d-a6cb-942d9dd23c7c")
-	)
-	(text_box "Питание +24В"
-		(exclude_from_sim no)
-		(at 229.87 119.38 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "197cc152-8509-4c8d-8ebe-7e78b3873cd0")
-	)
-	(text_box "J1:6"
-		(exclude_from_sim no)
-		(at 214.63 77.47 0)
+		(at 193.675 73.66 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -242,11 +352,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "1bffcc81-baf7-4daa-9994-6e15a5a3e68a")
+		(uuid "16dd2af6-9c25-4d4b-a45c-bd06062d2ab2")
 	)
-	(text_box "OS_MCU"
+	(text_box "GND"
 		(exclude_from_sim no)
-		(at 229.87 62.23 0)
+		(at 46.99 140.335 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -261,11 +371,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "1d300dc1-a776-41e8-9688-0b0d75271c8d")
+		(uuid "194bc2f7-e4f3-4244-928c-676d7d7001d7")
 	)
-	(text_box "J7:11\n"
+	(text_box "J4:10"
 		(exclude_from_sim no)
-		(at 199.39 96.52 0)
+		(at 208.915 92.71 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -279,11 +389,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "2061acde-522b-4258-89d1-4ddfb74b96cf")
+		(uuid "195767ed-9467-47f5-ad06-ad4e6448982e")
 	)
-	(text_box "G1"
+	(text_box "NTC_B-"
 		(exclude_from_sim no)
-		(at 170.18 96.52 0)
+		(at 164.465 58.42 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -298,11 +408,29 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "21a9d980-2ad6-432c-904c-6085969fd200")
+		(uuid "1c9db166-8824-4229-b24c-6816560df9e6")
 	)
-	(text_box "J1:16"
+	(text_box "<"
 		(exclude_from_sim no)
-		(at 214.63 115.57 0)
+		(at 208.915 117.475 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "1e27d58a-8d43-4e2c-b162-5b5ed1e035ee")
+	)
+	(text_box "J18:4"
+		(exclude_from_sim no)
+		(at 193.675 132.715 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -316,7 +444,192 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "2a91e7a8-d0a5-4bb8-9483-c1236e299d9f")
+		(uuid "1e5f56eb-c0e5-466c-8db0-8b575a38f5ce")
+	)
+	(text_box "<"
+		(exclude_from_sim no)
+		(at 193.675 117.475 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "1f85ef75-8325-4a03-bb00-736bef28517e")
+	)
+	(text_box "C"
+		(exclude_from_sim no)
+		(at 109.22 94.615 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "211b7d0c-3099-4589-881d-fe2b09209fa3")
+	)
+	(text_box "J4:3"
+		(exclude_from_sim no)
+		(at 208.915 66.04 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "21f20655-faf5-4389-84af-4a475210d3b2")
+	)
+	(text_box "J7:10"
+		(exclude_from_sim no)
+		(at 208.915 155.575 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "22f6370d-95d7-4b62-89a0-48d71228d958")
+	)
+	(text_box "J17:6"
+		(exclude_from_sim no)
+		(at 193.675 77.47 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "239c5540-a96c-4114-a6a4-56b2ac107329")
+	)
+	(text_box "C"
+		(exclude_from_sim no)
+		(at 224.155 155.575 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "258a6bf3-3905-4449-bdd5-67d428754f43")
+	)
+	(text_box "J18:5\n"
+		(exclude_from_sim no)
+		(at 193.675 136.525 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "26b93365-e4b3-4877-b587-1eab6589770a")
+	)
+	(text_box "B"
+		(exclude_from_sim no)
+		(at 49.53 90.805 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2b43fb7a-8d36-44a4-b0cd-6b600de9f9e2")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 164.465 140.335 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2c12e32e-4b61-4d44-8f62-25ffd98ab8c1")
+	)
+	(text_box "B"
+		(exclude_from_sim no)
+		(at 164.465 69.85 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2ce1ea87-9719-4f43-b1fd-529bfc3aef4f")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
@@ -337,27 +650,9 @@
 		)
 		(uuid "2cf6c6b5-3dda-424e-921f-bb04b1c39d9b")
 	)
-	(text_box "J1:1"
+	(text_box "NTC_A+\n"
 		(exclude_from_sim no)
-		(at 214.63 58.42 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "2d2e3ba7-9059-4b75-a8aa-3d32026fd800")
-	)
-	(text_box "OS_MCU"
-		(exclude_from_sim no)
-		(at 170.18 62.23 0)
+		(at 164.465 81.28 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -372,11 +667,29 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "2fee3155-df18-43c5-aa85-f4a2ea40e5b5")
+		(uuid "2f34c088-283a-4092-8f67-7f5f83bf0531")
 	)
-	(text_box "G2\n"
+	(text_box "J18:10"
 		(exclude_from_sim no)
-		(at 229.87 81.28 0)
+		(at 193.675 155.575 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2f7e74ae-b18b-4516-a47d-0b5381f07ad8")
+	)
+	(text_box "G6"
+		(exclude_from_sim no)
+		(at 164.465 136.525 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -391,11 +704,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "308a6440-e6d3-49c2-a20b-aa806a090544")
+		(uuid "310222f7-6988-4901-b375-01da6ffe4ffb")
 	)
-	(text_box "<"
+	(text_box "J7:4"
 		(exclude_from_sim no)
-		(at 199.39 54.61 0)
+		(at 76.2 132.715 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -406,10 +719,64 @@
 		)
 		(effects
 			(font
-				(size 3.5 3.5)
+				(size 2.5 2.5)
 			)
 		)
-		(uuid "354f9eaa-a1a5-49d4-9f66-51340a7fdea5")
+		(uuid "326b4a9f-d0c7-493a-9bf5-4a211d6120d1")
+	)
+	(text_box "J4:7"
+		(exclude_from_sim no)
+		(at 208.915 81.28 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "32ccb137-08fe-4b5b-970f-6a18ee45fbfe")
+	)
+	(text_box "J18:3\n"
+		(exclude_from_sim no)
+		(at 193.675 128.905 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3591ccdb-2879-49a2-9746-8eb0b68c8c38")
+	)
+	(text_box "J7:6\n"
+		(exclude_from_sim no)
+		(at 76.2 140.335 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "36991cf3-50a0-4574-afbb-15b88327a803")
 	)
 	(text_box "KL31"
 		(exclude_from_sim no)
@@ -429,9 +796,267 @@
 		)
 		(uuid "36cc3261-e2ba-463b-9015-cbe73f32fb77")
 	)
+	(text_box "G4"
+		(exclude_from_sim no)
+		(at 224.155 128.905 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "38f1f12c-9dc4-4c07-9f44-82b218148d98")
+	)
+	(text_box "J7:9"
+		(exclude_from_sim no)
+		(at 76.2 151.765 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3a8d7b76-a2bc-4582-b70f-f84a1e65d5b0")
+	)
+	(text_box "A"
+		(exclude_from_sim no)
+		(at 224.155 92.71 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3b253ca4-0636-491e-89cd-9b7bdb350bf8")
+	)
+	(text_box "NTC_C+\n"
+		(exclude_from_sim no)
+		(at 164.465 144.145 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3bc0efa5-5cf5-4b7a-9133-d6530c1d8135")
+	)
+	(text_box "J3"
+		(exclude_from_sim no)
+		(at 78.74 94.615 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3dbfaa5a-a940-4eea-b687-161cbca684d7")
+	)
+	(text_box "-"
+		(exclude_from_sim no)
+		(at 224.155 121.285 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3df0db72-d72b-43c0-8d47-3eefaba2a18d")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 46.99 136.525 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "406ec376-66ef-4fd7-8c21-bed022010708")
+	)
+	(text_box "J7:5"
+		(exclude_from_sim no)
+		(at 76.2 136.525 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "41c493f7-df6e-48be-b2ed-1bf94d7a5d56")
+	)
+	(text_box "J17:8"
+		(exclude_from_sim no)
+		(at 193.675 85.09 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "420b871a-8a03-4921-8b43-a5a63ec0b1ef")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 46.99 151.765 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4438dea6-3874-4bfb-8808-b4605e8bc2e3")
+	)
+	(text_box "J7:3"
+		(exclude_from_sim no)
+		(at 208.915 128.905 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4629c402-2e4c-46f3-b726-f5df8a63b89e")
+	)
+	(text_box "J3"
+		(exclude_from_sim no)
+		(at 93.98 90.805 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "47a5f4af-d65d-49b4-a750-144c062ad3b6")
+	)
+	(text_box "J1"
+		(exclude_from_sim no)
+		(at 78.74 86.995 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4944ad68-ec09-4a25-bb85-6f75cda44108")
+	)
+	(text_box "J18:2\n"
+		(exclude_from_sim no)
+		(at 193.675 125.095 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4a68b15a-990b-48ae-98fa-07ea2eed9f2e")
+	)
 	(text_box "<"
 		(exclude_from_sim no)
-		(at 214.63 54.61 0)
+		(at 76.2 117.475 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -445,11 +1070,11 @@
 				(size 3.5 3.5)
 			)
 		)
-		(uuid "3aea71ac-103c-4bd9-a3e5-9f65965e0678")
+		(uuid "4cd07073-104b-4c85-a398-edb492a40354")
 	)
-	(text_box "B"
+	(text_box "G1"
 		(exclude_from_sim no)
-		(at 170.18 73.66 0)
+		(at 224.155 88.9 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -464,11 +1089,143 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "3bc215bf-9586-46f9-a76b-5ba129cbf578")
+		(uuid "4f0ff2b4-8a40-4377-a8b9-48868c4f7718")
+	)
+	(text_box "NTC_A+\n"
+		(exclude_from_sim no)
+		(at 224.155 81.28 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4fc6dc75-235f-4ab3-8029-b5edba7b57f8")
+	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 49.53 83.185 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "51f7833d-23d2-4d1b-8c76-a36b6da75891")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 224.155 132.715 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "5552f15d-859e-43d0-8447-d9899bf9ab4d")
+	)
+	(text_box "-"
+		(exclude_from_sim no)
+		(at 164.465 125.095 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "55f83112-1d87-4a70-a563-b8762568bfa7")
+	)
+	(text_box "+24В"
+		(exclude_from_sim no)
+		(at 106.68 128.905 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "562e020f-74a2-499a-adc9-89106bc2a5e8")
+	)
+	(text_box "J7:10"
+		(exclude_from_sim no)
+		(at 76.2 155.575 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "5e24b3c9-e728-4c94-8292-7ef4cd90b378")
+	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 164.465 54.61 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "63dcd00b-d323-4f9c-a6d5-b69ce9d5b479")
 	)
 	(text_box "J7:9"
 		(exclude_from_sim no)
-		(at 199.39 88.9 0)
+		(at 208.915 151.765 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -482,11 +1239,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "3ec96176-51ee-4f3e-9c27-46ab8d26afe0")
+		(uuid "6445e3cb-d9aa-4206-820f-2f37cca7ff06")
 	)
-	(text_box "Цепь"
+	(text_box "G3"
 		(exclude_from_sim no)
-		(at 170.18 54.61 0)
+		(at 164.465 66.04 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -501,153 +1258,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "42e1c6b0-e333-41b1-af86-d59ef068280e")
-	)
-	(text_box "J7:12"
-		(exclude_from_sim no)
-		(at 199.39 100.33 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "480dc56d-c38d-4edd-b758-5ecef887fae2")
-	)
-	(text_box "Питание +3,3В"
-		(exclude_from_sim no)
-		(at 170.18 58.42 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "499a9190-b661-4e9d-b8b3-eaf625b9eb7e")
-	)
-	(text_box "J1:8"
-		(exclude_from_sim no)
-		(at 214.63 85.09 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4a5d1b60-834a-4c9b-9152-abc90231f34f")
-	)
-	(text_box "J7:18"
-		(exclude_from_sim no)
-		(at 199.39 123.19 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4b0cace4-6f0c-4e2b-992e-fd61f92838d8")
-	)
-	(text_box "Цепь"
-		(exclude_from_sim no)
-		(at 229.87 54.61 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4cc822f9-d191-473b-9e0e-adf897b1bca1")
-	)
-	(text_box "J1:17"
-		(exclude_from_sim no)
-		(at 214.63 119.38 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4f2e25fb-b2c3-4a62-8a96-c0a414915689")
-	)
-	(text_box "J1:9"
-		(exclude_from_sim no)
-		(at 214.63 88.9 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "5c053327-e79a-4526-9029-7c1ff3ce9e9e")
-	)
-	(text_box "J1:5"
-		(exclude_from_sim no)
-		(at 214.63 73.66 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "6171f887-18b8-40fb-b86c-44b9b68f7e55")
+		(uuid "644c7cc6-4128-4fcd-9386-916f27c2d2e1")
 	)
 	(text_box "KL30"
 		(exclude_from_sim no)
@@ -666,43 +1277,6 @@
 			)
 		)
 		(uuid "64add1ef-57cb-4c4d-bde1-3f71f06e91ba")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 170.18 123.19 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "65083ff6-1cdb-4a12-a8a8-65130a740360")
-	)
-	(text_box "J1:12"
-		(exclude_from_sim no)
-		(at 214.63 100.33 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "662e6e32-fe79-4a6c-89c9-529f272982c7")
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
@@ -723,6 +1297,80 @@
 		)
 		(uuid "66a0f11e-dea6-4cba-9da9-6601c36407bf")
 	)
+	(text_box "Shunt+"
+		(exclude_from_sim no)
+		(at 106.68 125.095 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "67e733e4-fe6d-48b4-9ae9-4e31493a3b05")
+	)
+	(text_box "Shunt-"
+		(exclude_from_sim no)
+		(at 46.99 121.285 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "6bde446a-4adf-4bfc-b211-e138e643a4c3")
+	)
+	(text_box "J2"
+		(exclude_from_sim no)
+		(at 78.74 90.805 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "6c076e32-fd50-4b00-adba-c8efcc348b6e")
+	)
+	(text_box "J18:7"
+		(exclude_from_sim no)
+		(at 193.675 144.145 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "6cb13f98-43dd-4743-ae1c-cbeb9a8e15c7")
+	)
 	(text_box "Конт"
 		(exclude_from_sim no)
 		(at 104.14 54.61 0)
@@ -741,28 +1389,9 @@
 		)
 		(uuid "6cca9461-8197-4731-b72f-a2acdbaecd5f")
 	)
-	(text_box "Питание +3,3В"
+	(text_box "J4"
 		(exclude_from_sim no)
-		(at 229.87 58.42 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "6ddb8db3-fe01-4456-ad06-721e48f4bfbd")
-	)
-	(text_box "J7:20"
-		(exclude_from_sim no)
-		(at 199.39 130.81 0)
+		(at 93.98 94.615 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -776,7 +1405,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "71b25084-c53b-4e53-aafa-566ceffc712c")
+		(uuid "7178cf01-bb2d-41ef-bc07-b150cff6ff83")
 	)
 	(text_box "Питание +24В"
 		(exclude_from_sim no)
@@ -797,9 +1426,9 @@
 		)
 		(uuid "71d531b4-a291-44bc-bc7f-7d241ced0292")
 	)
-	(text_box "J1:19"
+	(text_box "J4:4"
 		(exclude_from_sim no)
-		(at 214.63 127 0)
+		(at 208.915 69.85 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -813,12 +1442,12 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "72204937-5726-4ffd-ba8b-99696079c9fd")
+		(uuid "773827c3-186c-4b9c-b359-5360639eb333")
 	)
-	(text_box "J7:15"
+	(text_box "B"
 		(exclude_from_sim no)
-		(at 199.39 111.76 0)
-		(size 15.24 3.81)
+		(at 109.22 90.805 0)
+		(size 29.21 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -828,14 +1457,33 @@
 		)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "722cab99-db33-41ea-95c3-782f970d33d2")
+		(uuid "783ec830-711d-415a-b74a-7241031e7f89")
 	)
-	(text_box "J7:7"
+	(text_box "<"
 		(exclude_from_sim no)
-		(at 199.39 81.28 0)
+		(at 91.44 117.475 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "7a60303f-7e22-4564-9340-f469e314ac70")
+	)
+	(text_box "J18:1"
+		(exclude_from_sim no)
+		(at 193.675 121.285 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -849,11 +1497,67 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "755ff850-9169-48eb-8c21-b50a9658b7b0")
+		(uuid "7a84cf22-a882-441c-9603-382397e8e8e0")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 164.465 132.715 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7ac3607e-ac56-4328-86e3-fbffa500df8d")
+	)
+	(text_box "NTC_A-"
+		(exclude_from_sim no)
+		(at 164.465 85.09 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7c467ee0-ddb2-47bd-bd68-54392c1e1162")
+	)
+	(text_box "J17:7"
+		(exclude_from_sim no)
+		(at 193.675 81.28 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7ce4f9ea-7d48-436a-8ce4-1060cce977c5")
 	)
 	(text_box "G1"
 		(exclude_from_sim no)
-		(at 229.87 96.52 0)
+		(at 164.465 88.9 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -868,11 +1572,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "797a1b19-1146-424d-9542-4e30edbcc7ff")
+		(uuid "7e9716e2-f784-4f6a-9bf9-6f375ccbe1c3")
 	)
-	(text_box "J1:3"
+	(text_box "J7:5"
 		(exclude_from_sim no)
-		(at 214.63 66.04 0)
+		(at 208.915 136.525 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -886,11 +1590,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7c2c110f-881c-4bbc-959a-c520f0ad1af5")
+		(uuid "80cf2b34-dd23-41fd-abd6-45712e5a0f94")
 	)
-	(text_box "Питание +24В"
+	(text_box "Цепь"
 		(exclude_from_sim no)
-		(at 170.18 119.38 0)
+		(at 164.465 117.475 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -905,11 +1609,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7d24ad81-55f5-4f67-a64b-c4aaac193226")
+		(uuid "83d81fa1-746f-4fa4-8edc-ce1b11497a63")
 	)
-	(text_box "J7:4"
+	(text_box "J18:9"
 		(exclude_from_sim no)
-		(at 199.39 69.85 0)
+		(at 193.675 151.765 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -923,11 +1627,30 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7e41b3cd-01a2-4512-90d1-64bf9cf0f1ef")
+		(uuid "85044788-3cfb-48e4-bcf2-4a8266ee2ad3")
 	)
-	(text_box "J1:4"
+	(text_box "+24В"
 		(exclude_from_sim no)
-		(at 214.63 69.85 0)
+		(at 46.99 128.905 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "875c0eac-5579-4298-84b9-23dad19f4a7e")
+	)
+	(text_box "J18:8"
+		(exclude_from_sim no)
+		(at 193.675 147.955 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -941,11 +1664,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7e53e7a8-176a-4c56-b22f-9e03bb0af1f9")
+		(uuid "87830651-676b-4f59-b736-501c00eab23e")
 	)
-	(text_box "G3"
+	(text_box "NTC_B+"
 		(exclude_from_sim no)
-		(at 229.87 66.04 0)
+		(at 164.465 62.23 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -960,30 +1683,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7eaac2b8-e0a2-4ceb-83eb-50e1812625f7")
-	)
-	(text_box "G5"
-		(exclude_from_sim no)
-		(at 229.87 115.57 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "856fca02-c7f3-42d3-b159-b6d3b8f973e7")
+		(uuid "8994eef3-5b6e-40f3-9a0e-78b895ca6939")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
-		(at 229.87 92.71 0)
+		(at 224.155 140.335 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -998,11 +1702,30 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "86829b8c-8c58-4ff7-b5d1-b06b5247e099")
+		(uuid "8c573d8c-6a2e-4ad9-8f5e-08c3bb60bd3c")
 	)
-	(text_box "J1:2"
+	(text_box "GND"
 		(exclude_from_sim no)
-		(at 214.63 62.23 0)
+		(at 46.99 144.145 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "8c87db34-db10-459f-a10d-7dee284cb0ec")
+	)
+	(text_box "J4:9"
+		(exclude_from_sim no)
+		(at 208.915 88.9 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1016,11 +1739,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "8ee4ae6e-10c5-41d1-8ac3-7eae9e809b39")
+		(uuid "914e6018-2298-4fca-ba44-2ee8fa619741")
 	)
-	(text_box "GND"
+	(text_box "G2"
 		(exclude_from_sim no)
-		(at 229.87 88.9 0)
+		(at 224.155 73.66 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1035,7 +1758,44 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "90c1b598-309f-42b0-82cc-b11e844913f6")
+		(uuid "9296e6cc-5390-4184-9182-09a1114ee237")
+	)
+	(text_box "-"
+		(exclude_from_sim no)
+		(at 164.465 121.285 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "93cf8437-dcd1-425e-b9c8-d0305e5d1946")
+	)
+	(text_box "J4:1"
+		(exclude_from_sim no)
+		(at 208.915 58.42 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "93f12bd8-26a6-4cb0-b03e-75ffcb86d081")
 	)
 	(text_box "J6"
 		(exclude_from_sim no)
@@ -1055,9 +1815,9 @@
 		)
 		(uuid "9400a6d7-fdde-4643-9c67-e29740f8d2c8")
 	)
-	(text_box "J7:8"
+	(text_box "J9:1"
 		(exclude_from_sim no)
-		(at 199.39 85.09 0)
+		(at 91.44 121.285 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1071,12 +1831,12 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "9411d302-7adb-4d51-921b-82b4fe247956")
+		(uuid "95948130-d0e8-4786-8ffc-6043f36dd1ab")
 	)
-	(text_box "C"
+	(text_box "J4:6"
 		(exclude_from_sim no)
-		(at 229.87 107.95 0)
-		(size 29.21 3.81)
+		(at 208.915 77.47 0)
+		(size 15.24 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -1086,34 +1846,14 @@
 		)
 		(effects
 			(font
-				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "9467ecd0-26fe-4720-86b3-465449c7389d")
-	)
-	(text_box "C"
-		(exclude_from_sim no)
-		(at 170.18 107.95 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "94a928f7-5176-4ded-8114-59e08e54cb1a")
+		(uuid "9863dba3-7fa6-462a-afe6-9feec6ae1f30")
 	)
 	(text_box "G5"
 		(exclude_from_sim no)
-		(at 170.18 115.57 0)
+		(at 164.465 151.765 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1128,63 +1868,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "975dc9ca-4868-4fac-884a-c1160b4a66c3")
-	)
-	(text_box "SCL_MCU"
-		(exclude_from_sim no)
-		(at 229.87 69.85 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9a3e8ff2-d78f-4cd3-affc-594ed51431fa")
-	)
-	(text_box "J1:13"
-		(exclude_from_sim no)
-		(at 214.63 104.14 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9ad6a1de-a26f-470d-966e-f2e5f7b05e54")
-	)
-	(text_box "G4"
-		(exclude_from_sim no)
-		(at 229.87 85.09 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9bb50a0c-2f51-4283-81f0-8e2c2d49e439")
+		(uuid "9c5b2d07-75db-41ea-a413-18ea70f92607")
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
@@ -1205,28 +1889,9 @@
 		)
 		(uuid "9d949e9e-4626-4925-ba0c-8c1730012776")
 	)
-	(text_box "A"
+	(text_box "J7:8"
 		(exclude_from_sim no)
-		(at 229.87 104.14 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9fff6745-9d75-4714-b93c-a1f81a333f03")
-	)
-	(text_box "J7:13"
-		(exclude_from_sim no)
-		(at 199.39 104.14 0)
+		(at 208.915 147.955 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1240,68 +1905,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "a491c4ab-eda0-4d62-8070-33c015ba0032")
+		(uuid "9e59b912-63d6-4700-9207-268dbf2b6c11")
 	)
-	(text_box "Shunt_2"
+	(text_box "J9:2"
 		(exclude_from_sim no)
-		(at 229.87 130.81 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "a7d114b6-edcf-4178-84f1-abe5aaee1924")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 170.18 88.9 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "a9d4bf4c-9b9f-4c4b-958a-27b2e138185d")
-	)
-	(text_box "G3"
-		(exclude_from_sim no)
-		(at 170.18 66.04 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "ad9641e1-0fb9-4bf8-a8d0-ce68216e7f8f")
-	)
-	(text_box "J1:20"
-		(exclude_from_sim no)
-		(at 214.63 130.81 0)
+		(at 91.44 125.095 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1315,11 +1923,30 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "b5850689-b296-47a4-b449-13f3a00cc00c")
+		(uuid "9f3cb3ce-11a9-4cab-8437-5b9f968f3faf")
+	)
+	(text_box "G4"
+		(exclude_from_sim no)
+		(at 164.465 128.905 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "9f94f4f0-09f4-4c28-a631-f902f7e1a87a")
 	)
 	(text_box "J7:3\n"
 		(exclude_from_sim no)
-		(at 199.39 66.04 0)
+		(at 76.2 128.905 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1333,7 +1960,195 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "b6e4b42a-95f5-4532-850c-df0a9462329f")
+		(uuid "a6d510ca-93e6-43b1-b4b8-e827e2b1028f")
+	)
+	(text_box "<"
+		(exclude_from_sim no)
+		(at 78.74 83.185 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "a7fa5a79-afd3-4064-8a76-1471edc590c2")
+	)
+	(text_box "<"
+		(exclude_from_sim no)
+		(at 193.675 54.61 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "a8ee41b1-104d-4a06-bf71-1688e28cbb53")
+	)
+	(text_box "A"
+		(exclude_from_sim no)
+		(at 109.22 86.995 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "ab2d704e-ad09-403c-8fc3-28aea262adcb")
+	)
+	(text_box "NTC_C-"
+		(exclude_from_sim no)
+		(at 224.155 147.955 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "acd3c63e-5540-4cc9-bfbb-8fd5efd6724c")
+	)
+	(text_box "NTC_B+"
+		(exclude_from_sim no)
+		(at 224.155 62.23 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "af333c05-751e-4538-90b7-ace6517bb0ff")
+	)
+	(text_box "G6"
+		(exclude_from_sim no)
+		(at 224.155 136.525 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "af4c532c-bf29-4f69-8e0a-4976ceb66e18")
+	)
+	(text_box "-"
+		(exclude_from_sim no)
+		(at 224.155 125.095 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "afe7470b-c482-4105-8638-be81c1e9c97b")
+	)
+	(text_box "NTC_A-"
+		(exclude_from_sim no)
+		(at 224.155 85.09 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "b018e577-d1a4-41df-8bc8-86aa2e7a4652")
+	)
+	(text_box "A"
+		(exclude_from_sim no)
+		(at 49.53 86.995 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "b1880644-a727-47c3-9c55-603844f9c015")
+	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 224.155 54.61 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "b5b743d7-17b8-4e04-ade3-5ade4ff2a3ec")
 	)
 	(text_box "Питание +24В"
 		(exclude_from_sim no)
@@ -1354,47 +2169,9 @@
 		)
 		(uuid "b79754f3-9e3a-4c05-9904-1db9ee088884")
 	)
-	(text_box "B"
+	(text_box "J7:2"
 		(exclude_from_sim no)
-		(at 229.87 73.66 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "b9ed59da-c20e-4f64-a59a-90f2dabc3012")
-	)
-	(text_box "G6"
-		(exclude_from_sim no)
-		(at 229.87 100.33 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "b9ee1eed-28c6-4a36-ab8c-d59497e75109")
-	)
-	(text_box "J1:7"
-		(exclude_from_sim no)
-		(at 214.63 81.28 0)
+		(at 208.915 125.095 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1408,7 +2185,62 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "be2246cb-f5ea-478f-8f4e-2b52442669ae")
+		(uuid "b832988c-62e0-436b-8c75-959cb78ba758")
+	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 106.68 117.475 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "ba4cec3d-9ad9-4a64-b906-1613b8467df3")
+	)
+	(text_box "J7:2\n"
+		(exclude_from_sim no)
+		(at 76.2 125.095 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "bac53e1a-9cfd-4b44-a063-08234dcfc60b")
+	)
+	(text_box "J17:1"
+		(exclude_from_sim no)
+		(at 193.675 58.42 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "be6891d2-8691-4864-957b-c0dfcdafc430")
 	)
 	(text_box "J5"
 		(exclude_from_sim no)
@@ -1428,9 +2260,28 @@
 		)
 		(uuid "c1918135-427d-45ef-8a9f-8ea8815a16eb")
 	)
-	(text_box "J7:1"
+	(text_box "G2"
 		(exclude_from_sim no)
-		(at 199.39 58.42 0)
+		(at 164.465 73.66 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c53445da-599f-4b71-a339-6156bcd6bc48")
+	)
+	(text_box "J7:7\n"
+		(exclude_from_sim no)
+		(at 76.2 144.145 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1444,11 +2295,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "c77b123c-07fb-4674-8601-38e18db592cd")
+		(uuid "c6256cae-a507-4aeb-bd36-3df3cabe3efe")
 	)
-	(text_box "J7:6"
+	(text_box "J17:4"
 		(exclude_from_sim no)
-		(at 199.39 77.47 0)
+		(at 193.675 69.85 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1462,11 +2313,29 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "c8ed3628-64b7-4e90-971c-8088abe9e0a3")
+		(uuid "c8b2a32a-3950-4335-8e19-dcddcfa96568")
 	)
-	(text_box "G6"
+	(text_box "J9:4"
 		(exclude_from_sim no)
-		(at 170.18 100.33 0)
+		(at 91.44 132.715 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c974cc12-1cbe-4282-ac84-39ce64531b13")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 46.99 155.575 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1481,11 +2350,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "cc514d49-3f24-4828-863e-6b37f3bd5000")
+		(uuid "c9cef5b4-ab87-4ec4-b125-25b27062380e")
 	)
-	(text_box "SCL_MCU"
+	(text_box "C"
 		(exclude_from_sim no)
-		(at 170.18 69.85 0)
+		(at 49.53 94.615 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1500,11 +2369,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "cca85ef3-e053-4883-aa9e-c7cfb1752d61")
+		(uuid "ca17800f-93ca-495d-94d7-277b2fbab69b")
 	)
-	(text_box "SDA_MCU"
+	(text_box "G5"
 		(exclude_from_sim no)
-		(at 170.18 77.47 0)
+		(at 224.155 151.765 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1519,7 +2388,98 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "d3d4037d-497b-406d-a65e-bf48a02abe6b")
+		(uuid "cec8f412-6fd4-4de7-94fd-9f97578168e4")
+	)
+	(text_box "J7:7"
+		(exclude_from_sim no)
+		(at 208.915 144.145 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d01f6a7d-f94e-4556-96b9-4c4d4cbb4864")
+	)
+	(text_box "<"
+		(exclude_from_sim no)
+		(at 93.98 83.185 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "d044d4e4-08d2-47c6-85fc-c179ac88a581")
+	)
+	(text_box "J17:10"
+		(exclude_from_sim no)
+		(at 193.675 92.71 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d07edd20-60e1-4592-b6d7-0dcb747f8692")
+	)
+	(text_box "J4:8"
+		(exclude_from_sim no)
+		(at 208.915 85.09 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d3a0e50b-d0f3-4021-b356-03e585b5c8f3")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 46.99 132.715 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d3a61301-5bb7-47a6-adca-cf3518c55734")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
@@ -1540,27 +2500,9 @@
 		)
 		(uuid "d47dbf0b-4653-493d-a469-c22f5ca0c7ed")
 	)
-	(text_box "J7:14"
+	(text_box "Shunt+"
 		(exclude_from_sim no)
-		(at 199.39 107.95 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "d7d9346b-c6b9-4c21-8851-caf867dd80ed")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 229.87 123.19 0)
+		(at 46.99 125.095 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1575,11 +2517,30 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "d94f2c15-e0bb-425b-b1c0-20c90e151918")
+		(uuid "d4abbe51-77b5-4958-b281-47e04180d16b")
 	)
-	(text_box "J7:10"
+	(text_box "Цепь"
 		(exclude_from_sim no)
-		(at 199.39 92.71 0)
+		(at 109.22 83.185 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d731a02a-aee6-4337-b565-b683c538e74e")
+	)
+	(text_box "J4:2"
+		(exclude_from_sim no)
+		(at 208.915 62.23 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1593,7 +2554,43 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "db0c114b-28d7-4a83-93a0-f0249ab103f2")
+		(uuid "d9040ac8-4d9c-45e3-8219-4e2dfb90787a")
+	)
+	(text_box "J7:1"
+		(exclude_from_sim no)
+		(at 76.2 121.285 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d9a3addf-4f06-455a-aecc-afc7ec49fec1")
+	)
+	(text_box "J9:3"
+		(exclude_from_sim no)
+		(at 91.44 128.905 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "db348253-b6ed-4330-9ef5-94a4842c482f")
 	)
 	(text_box "Конт"
 		(exclude_from_sim no)
@@ -1613,81 +2610,9 @@
 		)
 		(uuid "dc4d0e74-272d-4a1c-9b2f-0cdd6a12045a")
 	)
-	(text_box "J7:2\n"
+	(text_box "GND"
 		(exclude_from_sim no)
-		(at 199.39 62.23 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "dd52204b-5a1c-4c27-879c-c60981764eb9")
-	)
-	(text_box "J7:16"
-		(exclude_from_sim no)
-		(at 199.39 115.57 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "dfd92650-c3c2-4418-8c9b-69b2c0b457a9")
-	)
-	(text_box "J1:10"
-		(exclude_from_sim no)
-		(at 214.63 92.71 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "e0a32b20-b104-4b10-a680-6ab0cf399c01")
-	)
-	(text_box "J7:5\n"
-		(exclude_from_sim no)
-		(at 199.39 73.66 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "e0e01cea-daea-4e02-b345-663238293b4c")
-	)
-	(text_box "G4"
-		(exclude_from_sim no)
-		(at 170.18 85.09 0)
+		(at 164.465 77.47 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1702,68 +2627,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "e642a333-fbf9-456b-94fa-883b650ceecb")
+		(uuid "de98213e-bb87-4901-9ce6-e9b28a53efb2")
 	)
-	(text_box "Shunt_1"
+	(text_box "J17:9"
 		(exclude_from_sim no)
-		(at 170.18 127 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "ea65baaf-6d67-4a55-8b7c-7db3cf6fd656")
-	)
-	(text_box "A"
-		(exclude_from_sim no)
-		(at 170.18 104.14 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "ee8adb28-2be0-4cb8-a3e4-4ccdb46fa7d7")
-	)
-	(text_box "SDA_MCU"
-		(exclude_from_sim no)
-		(at 229.87 77.47 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f0327440-2369-4623-8e92-0c40a58262bc")
-	)
-	(text_box "J1:14"
-		(exclude_from_sim no)
-		(at 214.63 107.95 0)
+		(at 193.675 88.9 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1777,11 +2645,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "f61cfe0f-cb14-4e94-b5cb-1070aeb3de93")
+		(uuid "df4c80be-6585-4fbf-a46c-dcf761c13fc3")
 	)
-	(text_box "J1:18"
+	(text_box "J17:3\n"
 		(exclude_from_sim no)
-		(at 214.63 123.19 0)
+		(at 193.675 66.04 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1795,11 +2663,67 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "f7570e4c-a2f7-4c4e-8fc8-576af9844cbc")
+		(uuid "e33017a9-61bd-4c1d-ba3d-d3bec379fc6e")
+	)
+	(text_box "J7:1"
+		(exclude_from_sim no)
+		(at 208.915 121.285 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "e407bff3-cc81-4b67-8ab6-3e1a01467f7b")
+	)
+	(text_box "G3"
+		(exclude_from_sim no)
+		(at 224.155 66.04 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "e59ad6b2-7b46-40a7-ba46-85f6fc76559f")
+	)
+	(text_box "NTC_C-"
+		(exclude_from_sim no)
+		(at 164.465 147.955 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "e7690e94-0812-4c0f-8018-7f7b14e3d9e9")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
-		(at 229.87 111.76 0)
+		(at 46.99 147.955 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1814,11 +2738,30 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "fae0905d-aba4-4ad6-984b-b5d5896420b4")
+		(uuid "e95763c9-8588-4610-b25a-4117b9bf47d0")
 	)
-	(text_box "J7:17"
+	(text_box "Shunt-"
 		(exclude_from_sim no)
-		(at 199.39 119.38 0)
+		(at 106.68 121.285 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "f07e6839-ee1e-40af-b64c-c8f6c2b8305d")
+	)
+	(text_box "J7:4"
+		(exclude_from_sim no)
+		(at 208.915 132.715 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1832,11 +2775,47 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "fae3be6b-46ae-4315-a13f-de3acfd5f8bb")
+		(uuid "f0842ded-0cbf-4d96-858e-09ffc4c41c37")
 	)
-	(text_box "G2\n"
+	(text_box "J17:2\n"
 		(exclude_from_sim no)
-		(at 170.18 81.28 0)
+		(at 193.675 62.23 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "f0aa674f-7882-4b52-84ba-5a00a5a7d9f9")
+	)
+	(text_box "J18:6"
+		(exclude_from_sim no)
+		(at 193.675 140.335 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "f2e7cb92-4ea9-4d15-a252-de2d56c43a39")
+	)
+	(text_box "A"
+		(exclude_from_sim no)
+		(at 164.465 92.71 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1851,11 +2830,66 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "fdba6bc2-e8c8-47dd-ba10-7ecadf81f2cb")
+		(uuid "f3871c38-9832-42b4-8ff4-db93af2bfaa3")
 	)
-	(text "Силовая часть"
+	(text_box "C"
 		(exclude_from_sim no)
-		(at 170.18 49.53 0)
+		(at 164.465 155.575 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "f490706b-44ff-41ab-9f6e-38d9386e06c5")
+	)
+	(text_box "J4:5"
+		(exclude_from_sim no)
+		(at 208.915 73.66 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "fafbb3e0-b2d7-437b-b0f3-c6c056f675a2")
+	)
+	(text_box "<"
+		(exclude_from_sim no)
+		(at 208.915 54.61 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "fc467686-63ec-40a1-bca7-019a740b57c8")
+	)
+	(text "Плата управления"
+		(exclude_from_sim no)
+		(at 110.49 112.395 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -1864,7 +2898,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1471e002-b76b-4bdb-98d8-e0a168ec74a0")
+		(uuid "0dc83d68-5f6c-4839-827b-dbd7c6f63e8f")
+	)
+	(text "Узел соединительный"
+		(exclude_from_sim no)
+		(at 41.91 78.105 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f105cc4-40b7-471b-8e49-d8aa6b5440e5")
 	)
 	(text "Источник питания"
 		(exclude_from_sim no)
@@ -1879,22 +2924,20 @@
 		)
 		(uuid "30b25317-1d9e-486d-bfc3-ecdb0b33e0b1")
 	)
-	(text "А1"
+	(text "A1"
 		(exclude_from_sim no)
-		(at 179.07 41.91 0)
+		(at 125.73 71.755 0)
 		(effects
 			(font
 				(size 3.5 3.5)
-				(thickness 0.7)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
-		(uuid "3792c6ec-c5b0-4084-8ce3-791b1450b16e")
+		(uuid "34c5850e-2e7b-416e-b831-66ffa02d6aa6")
 	)
 	(text "Плата управления"
 		(exclude_from_sim no)
-		(at 233.68 49.53 0)
+		(at 227.965 49.53 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -1903,11 +2946,24 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "38b14395-f5f0-4d66-9bb1-3ab17e322906")
+		(uuid "36530b47-7a3f-4480-a3f2-2d97390a583d")
 	)
-	(text "A2"
+	(text "Силовая часть"
 		(exclude_from_sim no)
-		(at 245.11 41.91 0)
+		(at 164.465 112.395 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "375e223c-e047-42cd-8680-fca58f3de6ed")
+	)
+	(text "А1"
+		(exclude_from_sim no)
+		(at 173.355 41.91 0)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -1916,7 +2972,57 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6c0bbed3-dabc-405f-96ea-5ebf0ee0f0d0")
+		(uuid "68798785-dfc5-47f4-b8ac-a30b85f933c8")
+	)
+	(text "А1"
+		(exclude_from_sim no)
+		(at 55.88 104.775 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "72608298-c538-4592-a791-186ff12fe83c")
+	)
+	(text "Узел силовой"
+		(exclude_from_sim no)
+		(at 110.49 78.105 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "91a62686-0830-4c3c-be34-eb52c116941b")
+	)
+	(text "Силовая часть"
+		(exclude_from_sim no)
+		(at 164.465 49.53 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "94e506d6-ef78-4d12-b84f-221916df14ab")
+	)
+	(text "А1"
+		(exclude_from_sim no)
+		(at 173.355 104.775 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a43d9a40-fd5f-43e6-b198-30c9eafb2982")
 	)
 	(text "x"
 		(exclude_from_sim no)
@@ -1929,6 +3035,19 @@
 		)
 		(uuid "a4fbc4f4-35a8-459c-9ec0-9eafd61d83a1")
 	)
+	(text "Плата управления"
+		(exclude_from_sim no)
+		(at 227.965 112.395 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9b46239-a80d-4393-b73b-0b07f6fba74d")
+	)
 	(text "x"
 		(exclude_from_sim no)
 		(at 96.52 60.96 0)
@@ -1939,6 +3058,19 @@
 			(justify left bottom)
 		)
 		(uuid "b065b814-35c8-4dd3-acc6-48554a8895d2")
+	)
+	(text "A2"
+		(exclude_from_sim no)
+		(at 239.395 41.91 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6c8cf27-66a9-41df-913a-14d460933dc7")
 	)
 	(text "Силовая часть"
 		(exclude_from_sim no)
@@ -1953,6 +3085,19 @@
 		)
 		(uuid "cb1131e8-332a-4903-8ed9-f5d1596d679a")
 	)
+	(text "A2"
+		(exclude_from_sim no)
+		(at 239.395 104.775 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d024d583-f0a6-4f39-8725-f18bed350ba6")
+	)
 	(text "А1"
 		(exclude_from_sim no)
 		(at 55.88 41.91 0)
@@ -1966,6 +3111,19 @@
 		)
 		(uuid "d83fc58b-966f-4068-8a80-fb91eeb4944d")
 	)
+	(text "A2"
+		(exclude_from_sim no)
+		(at 121.92 104.775 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8e09b64-fe8a-4064-8722-3f4967826887")
+	)
 	(text "1. Провода х распаиваются на плате в разъёмы J5 и J6."
 		(exclude_from_sim no)
 		(at 107.95 182.88 0)
@@ -1976,5 +3134,29 @@
 			(justify left bottom)
 		)
 		(uuid "de6862c8-cb8f-4706-a464-fa82b1e7a74b")
+	)
+	(text "Силовая часть"
+		(exclude_from_sim no)
+		(at 46.99 112.395 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1574576-d377-43ed-9c96-639fb6277880")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 57.15 71.755 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe746612-baa2-403a-a508-d7ef5b7cbae2")
 	)
 )

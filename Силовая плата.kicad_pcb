@@ -129,8 +129,8 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00010f0_ffffffff)
+			(plot_on_all_layers_selection 0x0001000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -159,11 +159,11 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 3)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber_Power_KAMAZ/")
+			(outputdirectory "Чертежи/")
 		)
 	)
 	(net 0 "")
@@ -1419,15 +1419,15 @@
 			(clearance 1)
 			(uuid "27ab99c8-1f89-44fa-b61f-7cb3ace54c21")
 		)
-		(model "${KIPRJMOD}/3D models/7466103.stp"
+		(model "${KIPRJMOD}/3D models/Шпилька М4.STEP"
 			(offset
-				(xyz 0 -12.15 -0.85)
+				(xyz -2810.65 -1364.9 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -1513,15 +1513,15 @@
 			(clearance 1)
 			(uuid "564f9fb2-09f4-495e-bdec-49af4f9c4560")
 		)
-		(model "${KIPRJMOD}/3D models/7466103.stp"
+		(model "${KIPRJMOD}/3D models/Шпилька М4.STEP"
 			(offset
-				(xyz 0 -12.15 -0.85)
+				(xyz -2810.65 -1364.9 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -4617,15 +4617,15 @@
 			(clearance 1)
 			(uuid "b75fc3e9-a747-49d2-bdf3-a9733c3810f1")
 		)
-		(model "${KIPRJMOD}/3D models/7466103.stp"
+		(model "${KIPRJMOD}/3D models/Шпилька М4.STEP"
 			(offset
-				(xyz 0 -12.15 -0.85)
+				(xyz -2810.65 -1364.9 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 90 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
